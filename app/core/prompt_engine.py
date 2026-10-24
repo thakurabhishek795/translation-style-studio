@@ -15,7 +15,15 @@ class PromptEngine:
         "- Prefer active voice and idiomatic cadence over awkward literal passive phrasing.\n"
         "- Strictly adhere to the approved Translation Memory examples for tone and phrasing patterns.\n"
         "- Enforce the mandatory Glossary vocabulary; never use forbidden/avoided translations.\n"
-        "- Preserve all citations, equations, numerical quantities, URLs, and proper names untouched."
+        "- Preserve all citations, equations, numerical quantities, URLs, and proper names untouched.\n\n"
+        "### Mandatory Editorial & Conceptual Precision Rules:\n"
+        "1. Value vs. Price: Keep 'मूल्य' (Value) and 'कीमत' (Price) strictly distinct. In value theory, never translate value as 'कीमत'.\n"
+        "2. Surplus Value vs. Profit: Keep 'अतिरिक्त मूल्य' (Surplus Value), 'मुनाफा' (Profit), and 'मजदूरी' (Wages) distinct. Never translate surplus value as 'मुनाफा'.\n"
+        "3. Labour vs. Labour-Power: Keep 'श्रम' (Labour) and 'श्रम-शक्ति' (Labour-Power) strictly distinct.\n"
+        "4. Capital Categories: Keep 'स्थिर पूँजी' (Constant Capital), 'स्थिर पूँजीगत साधन' (Fixed Capital), 'परिवर्तनशील पूँजी' (Variable Capital), and 'परिचलनशील पूँजी' (Circulating Capital) distinct.\n"
+        "5. Class Categories: Use 'सर्वहारा वर्ग' (Proletariat) and 'बुर्जुआ वर्ग' (Bourgeoisie) for formal class categories; do not replace with colloquial labels (like 'गरीब लोग' or 'अमीर लोग').\n"
+        "6. Dialectical Contradiction: Use 'अन्तर्विरोध' for a dialectical or structural contradiction, not casual disagreement ('असहमति').\n"
+        "7. Specialized Term Convention: On first occurrence of a specialized term in a section, format as: preferred Hindi term (English source term)."
     )
 
     @classmethod

@@ -1,13 +1,16 @@
 {
   "mode of production": {
     "term": "mode of production",
-    "preferred": "उत्पादन-पद्धति (mode of production)",
+    "preferred": "उत्पादन-पद्धति",
     "avoid_terms": [
       "उत्पादन का तरीका",
-      "बनाने की विधि"
+      "बनाने की विधि",
+      "उत्पादन प्रणाली"
     ],
-    "context_notes": "Formal Marxist category combining productive forces and relations of production. Use the English in parentheses on first occurrence.",
-    "category": "political_economy"
+    "context_notes": "Formal term; “उत्पादन प्रणाली” may be used for broader prose, but not as a casual substitute.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "surplus labor": {
     "term": "surplus labor",
@@ -29,8 +32,10 @@
       "वस्तु",
       "सामान"
     ],
-    "context_notes": "In Marxian political economy 'माल' is the standard term for an object produced for exchange. 'वस्तु' is too broad.",
-    "category": "political_economy"
+    "context_notes": "Prefer in Marxian analysis; “वस्तु” is too broad.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "feedback": {
     "term": "feedback",
@@ -61,8 +66,10 @@
       "गरीब लोग",
       "मजदूर लोग"
     ],
-    "context_notes": "Formal class category; it is not synonymous with all poor people or all wage earners in ordinary speech.",
-    "category": "class_analysis"
+    "context_notes": "Formal class category; not all poor people.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "means of production": {
     "term": "means of production",
@@ -71,18 +78,22 @@
       "बनाने के साधन",
       "उत्पादन के तरीके"
     ],
-    "context_notes": "Includes instruments of labour and objects of labour; do not reduce it to machinery alone.",
-    "category": "political_economy"
+    "context_notes": "Includes tools, machinery, land and materials; not machinery alone.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "productive forces": {
     "term": "productive forces",
     "preferred": "उत्पादक शक्तियाँ",
     "avoid_terms": [
-      "उत्पादन बल",
-      "निर्माण शक्तियाँ"
+      "निर्माण शक्तियाँ",
+      "उत्पादन बल"
     ],
-    "context_notes": "Established historical-materialist term; includes labour power, knowledge, techniques and instruments of production.",
-    "category": "historical_materialism"
+    "context_notes": "Formal historical-materialist category.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "relations of production": {
     "term": "relations of production",
@@ -91,28 +102,35 @@
       "उत्पादन के रिश्ते",
       "काम के सम्बन्ध"
     ],
-    "context_notes": "Use for the social relations through which production is organized, especially property and class relations.",
-    "category": "historical_materialism"
+    "context_notes": "Use for property and class relations in production.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "economic base": {
     "term": "economic base",
     "preferred": "आर्थिक आधार",
     "avoid_terms": [
-      "आर्थिक नींव",
-      "अर्थव्यवस्था का आधार"
+      "अर्थव्यवस्था का आधार",
+      "आर्थिक नींव"
     ],
-    "context_notes": "Use with 'अधिरचना' when translating the base-superstructure relation.",
-    "category": "historical_materialism"
+    "context_notes": "Pair with “अधिरचना” in base-superstructure analysis.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "superstructure": {
     "term": "superstructure",
     "preferred": "अधिरचना",
     "avoid_terms": [
-      "ऊपरी ढाँचा",
-      "अतिरिक्त संरचना"
+      "अतिरिक्त संरचना",
+      "ऊपरी ढाँचा.",
+      "ऊपरी ढाँचा"
     ],
-    "context_notes": "Established Marxist term for political, legal and ideological forms related to the economic base.",
-    "category": "historical_materialism"
+    "context_notes": "Formal Marxist term; do not use “ऊपरी ढाँचा.”",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "dialectical materialism": {
     "term": "dialectical materialism",
@@ -121,58 +139,74 @@
       "तार्किक भौतिकवाद",
       "विवादात्मक भौतिकवाद"
     ],
-    "context_notes": "Retain the formal philosophical term; do not paraphrase it as a generic materialist outlook.",
-    "category": "philosophy"
+    "context_notes": "Formal philosophical term.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "historical materialism": {
     "term": "historical materialism",
     "preferred": "ऐतिहासिक भौतिकवाद",
     "avoid_terms": [
+      "materialist history.",
       "इतिहास का भौतिकवाद",
       "भौतिकवादी इतिहास"
     ],
-    "context_notes": "Formal Marxist method for explaining historical development through material social relations.",
-    "category": "philosophy"
+    "context_notes": "Do not dilute to “materialist history.”",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "contradiction": {
     "term": "contradiction",
     "preferred": "अन्तर्विरोध",
     "avoid_terms": [
+      "असहमति.",
       "विरोधाभास",
       "असहमति"
     ],
-    "context_notes": "In dialectical and political-economy contexts use 'अन्तर्विरोध'; reserve ordinary words for a simple inconsistency or disagreement.",
-    "category": "dialectics"
+    "context_notes": "Use in dialectical/class analysis; not “असहमति.”",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "use value": {
     "term": "use value",
     "preferred": "उपयोग-मूल्य",
     "avoid_terms": [
       "उपयोगिता",
-      "इस्तेमाल की कीमत"
+      "इस्तेमाल की कीमत",
+      "उपयोगिता."
     ],
-    "context_notes": "Use the hyphenated technical term; it is not the same as utility in neoclassical economics.",
-    "category": "political_economy"
+    "context_notes": "Do not replace with “उपयोगिता.”",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "exchange value": {
     "term": "exchange value",
     "preferred": "विनिमय-मूल्य",
     "avoid_terms": [
-      "बदले की कीमत",
-      "बाजार मूल्य"
+      "बाजार मूल्य",
+      "बदले की कीमत"
     ],
-    "context_notes": "Do not equate it automatically with market price.",
-    "category": "political_economy"
+    "context_notes": "Do not equate automatically with market price.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "value": {
     "term": "value",
     "preferred": "मूल्य",
     "avoid_terms": [
+      "कीमत.",
       "कीमत",
       "महत्त्व"
     ],
-    "context_notes": "In the labour theory of value, translate as 'मूल्य'. Use 'कीमत' only for price.",
-    "category": "political_economy"
+    "context_notes": "In labour theory, do not use “कीमत.”",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "price": {
     "term": "price",
@@ -180,8 +214,10 @@
     "avoid_terms": [
       "मूल्य"
     ],
-    "context_notes": "Keep distinct from Marxian 'मूल्य' (value), unless the source explicitly uses value in the ordinary non-technical sense.",
-    "category": "political_economy"
+    "context_notes": "Keep distinct from “मूल्य.”",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "labour": {
     "term": "labour",
@@ -190,8 +226,10 @@
       "काम",
       "मेहनत"
     ],
-    "context_notes": "Use the formal term in political economy; 'काम' may be suitable only in non-technical prose.",
-    "category": "political_economy"
+    "context_notes": "Prefer in technical political-economy prose over “काम.”",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "labour power": {
     "term": "labour power",
@@ -210,18 +248,22 @@
       "काम करने की प्रक्रिया",
       "श्रम व्यवस्था"
     ],
-    "context_notes": "Use for the process in which labour acts on an object through instruments of labour.",
-    "category": "political_economy"
+    "context_notes": "Formal term in the analysis of production.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "abstract labour": {
     "term": "abstract labour",
     "preferred": "अमूर्त श्रम",
     "avoid_terms": [
-      "काल्पनिक श्रम",
-      "सामान्य काम"
+      "सामान्य काम",
+      "काल्पनिक श्रम"
     ],
-    "context_notes": "Technical value-form category; do not paraphrase it as imaginary labour.",
-    "category": "political_economy"
+    "context_notes": "Technical value-form category.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "concrete labour": {
     "term": "concrete labour",
@@ -230,49 +272,59 @@
       "वास्तविक श्रम",
       "खास काम"
     ],
-    "context_notes": "Use as the counterpart of 'अमूर्त श्रम' in the analysis of the commodity.",
-    "category": "political_economy"
+    "context_notes": "Use as the counterpart of “अमूर्त श्रम.”",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "socially necessary labour time": {
     "term": "socially necessary labour time",
     "preferred": "सामाजिक रूप से आवश्यक श्रम-समय",
     "avoid_terms": [
-      "औसत काम का समय",
-      "जरूरी श्रम-समय"
+      "जरूरी श्रम-समय",
+      "औसत काम का समय"
     ],
-    "context_notes": "Formal value-theory term; retain the full phrase.",
-    "category": "political_economy"
+    "context_notes": "Keep the full phrase.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "surplus value": {
     "term": "surplus value",
     "preferred": "अतिरिक्त मूल्य",
     "avoid_terms": [
+      "लाभ",
       "अधिक मूल्य",
-      "बचा हुआ मूल्य",
-      "लाभ"
+      "बचा हुआ मूल्य"
     ],
-    "context_notes": "Do not translate as profit. It is the value appropriated beyond the value of labour-power.",
-    "category": "political_economy"
+    "context_notes": "Never translate as “मुनाफा.”",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "surplus labour": {
     "term": "surplus labour",
     "preferred": "अतिरिक्त श्रम",
     "avoid_terms": [
-      "फालतू श्रम",
-      "अतिरिक्त काम"
+      "अतिरिक्त काम",
+      "फालतू श्रम"
     ],
-    "context_notes": "Use for labour performed beyond necessary labour, not simply overtime work.",
-    "category": "political_economy"
+    "context_notes": "Labour beyond necessary labour, not simply overtime.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "necessary labour": {
     "term": "necessary labour",
     "preferred": "आवश्यक श्रम",
     "avoid_terms": [
-      "ज़रूरी काम",
-      "अनिवार्य श्रम"
+      "अनिवार्य श्रम",
+      "ज़रूरी काम"
     ],
-    "context_notes": "Use in relation to the reproduction of the value of labour-power.",
-    "category": "political_economy"
+    "context_notes": "Labour needed to reproduce the value of labour-power.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "constant capital": {
     "term": "constant capital",
@@ -281,27 +333,33 @@
       "नियत पूँजी",
       "अचल पूँजी"
     ],
-    "context_notes": "Marx's category of capital transferred to the product without creating new value; not merely fixed capital.",
-    "category": "political_economy"
+    "context_notes": "Marx’s value category; do not confuse with fixed capital.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "variable capital": {
     "term": "variable capital",
     "preferred": "परिवर्तनशील पूँजी",
     "avoid_terms": [
-      "चल पूँजी",
-      "बदलती पूँजी"
+      "बदलती पूँजी",
+      "चल पूँजी"
     ],
-    "context_notes": "Capital laid out on labour-power that produces surplus value; do not confuse with circulating capital.",
-    "category": "political_economy"
+    "context_notes": "Capital advanced for labour-power.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "fixed capital": {
     "term": "fixed capital",
-    "preferred": "स्थिर पूँजीगत साधन (fixed capital)",
+    "preferred": "स्थिर पूँजीगत साधन",
     "avoid_terms": [
       "स्थिर पूँजी"
     ],
-    "context_notes": "Keep distinct from Marx's 'constant capital'. The English in parentheses is recommended on first use.",
-    "category": "political_economy"
+    "context_notes": "Keep distinct from “स्थिर पूँजी”; add English on first use if necessary.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "circulating capital": {
     "term": "circulating capital",
@@ -310,8 +368,10 @@
       "चल पूँजी",
       "परिवर्तनशील पूँजी"
     ],
-    "context_notes": "Keep distinct from variable capital; the categories overlap differently.",
-    "category": "political_economy"
+    "context_notes": "Keep distinct from variable capital.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "organic composition of capital": {
     "term": "organic composition of capital",
@@ -320,18 +380,22 @@
       "पूँजी की संरचना",
       "पूँजी का अनुपात"
     ],
-    "context_notes": "Formal term for the value composition of capital insofar as it reflects its technical composition.",
-    "category": "political_economy"
+    "context_notes": "Use the full formal term.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "accumulation of capital": {
     "term": "accumulation of capital",
     "preferred": "पूँजी संचय",
     "avoid_terms": [
-      "पूँजी की बचत",
-      "पैसा जमा करना"
+      "पैसा जमा करना",
+      "पूँजी की बचत"
     ],
-    "context_notes": "Use for the conversion of surplus value into additional capital.",
-    "category": "political_economy"
+    "context_notes": "Not merely personal saving.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "primitive accumulation": {
     "term": "primitive accumulation",
@@ -340,18 +404,22 @@
       "प्रारम्भिक बचत",
       "मूल संचय"
     ],
-    "context_notes": "Formal Marxist term concerning the historical separation of producers from the means of production.",
-    "category": "political_economy"
+    "context_notes": "Formal historical category.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "reproduction": {
     "term": "reproduction",
     "preferred": "पुनरुत्पादन",
     "avoid_terms": [
-      "दोबारा उत्पादन",
-      "प्रजनन"
+      "प्रजनन",
+      "दोबारा उत्पादन"
     ],
-    "context_notes": "In political economy, use for the renewal of the conditions of production and social relations.",
-    "category": "political_economy"
+    "context_notes": "Renewal of production and its social conditions.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "simple reproduction": {
     "term": "simple reproduction",
@@ -359,8 +427,10 @@
     "avoid_terms": [
       "साधारण दोबारा उत्पादन"
     ],
-    "context_notes": "Reproduction on the same scale; retain the paired term with extended reproduction.",
-    "category": "political_economy"
+    "context_notes": "Reproduction on the same scale.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "extended reproduction": {
     "term": "extended reproduction",
@@ -369,8 +439,10 @@
       "बढ़ा हुआ उत्पादन",
       "विस्तृत दोबारा उत्पादन"
     ],
-    "context_notes": "Reproduction on an expanded scale through accumulation.",
-    "category": "political_economy"
+    "context_notes": "Reproduction on an expanded scale.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "turnover of capital": {
     "term": "turnover of capital",
@@ -379,8 +451,10 @@
       "पूँजी का कारोबार",
       "पूँजी का लेन-देन"
     ],
-    "context_notes": "Technical term for capital's circuit and the time required for its renewal.",
-    "category": "political_economy"
+    "context_notes": "The cycle and renewal time of capital.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "rate of surplus value": {
     "term": "rate of surplus value",
@@ -389,8 +463,10 @@
       "मुनाफे की दर",
       "अधिशेष की दर"
     ],
-    "context_notes": "Do not merge with the rate of profit.",
-    "category": "political_economy"
+    "context_notes": "Do not merge with rate of profit.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "rate of profit": {
     "term": "rate of profit",
@@ -399,8 +475,10 @@
       "अतिरिक्त मूल्य की दर",
       "लाभ की दर"
     ],
-    "context_notes": "Use consistently for the ratio of surplus value to total capital advanced.",
-    "category": "political_economy"
+    "context_notes": "Formal term.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "tendency of the rate of profit to fall": {
     "term": "tendency of the rate of profit to fall",
@@ -418,18 +496,23 @@
     "avoid_terms": [
       "किराया"
     ],
-    "context_notes": "In Marxian agrarian political economy use 'लगान'; use 'किराया' for ordinary tenancy only when the technical category is not intended.",
-    "category": "political_economy"
+    "context_notes": "Preferred in Marxian agrarian political economy; “किराया” is usually too narrow.",
+    "category": "Land, agriculture and rent",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "differential rent": {
     "term": "differential rent",
     "preferred": "विभेदक लगान",
     "avoid_terms": [
       "अलग लगान",
-      "भिन्न किराया"
+      "भिन्न किराया",
+      "अलग लगान."
     ],
-    "context_notes": "Formal category of rent arising from differences in fertility, location or investment conditions.",
-    "category": "political_economy"
+    "context_notes": "Formal category; do not use “अलग लगान.”",
+    "category": "Land, agriculture and rent",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "absolute rent": {
     "term": "absolute rent",
@@ -438,38 +521,46 @@
       "पूर्ण लगान",
       "निश्चित किराया"
     ],
-    "context_notes": "Use as the counterpart of differential rent in Marx's theory of ground rent.",
-    "category": "political_economy"
+    "context_notes": "Formal category in Marx’s theory of ground rent.",
+    "category": "Land, agriculture and rent",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "landed property": {
     "term": "landed property",
     "preferred": "भू-सम्पत्ति",
     "avoid_terms": [
-      "जमीन",
-      "भूमि का स्वामित्व"
+      "भूमि का स्वामित्व",
+      "जमीन"
     ],
-    "context_notes": "Use for the social institution or form of property in land, not merely a plot of land.",
-    "category": "political_economy"
+    "context_notes": "Social/legal form of property in land.",
+    "category": "Land, agriculture and rent",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "monopoly": {
     "term": "monopoly",
     "preferred": "एकाधिकार",
     "avoid_terms": [
-      "एकल व्यापार",
-      "इजारा"
+      "इजारा",
+      "एकल व्यापार"
     ],
-    "context_notes": "Use the established modern political-economy term.",
-    "category": "political_economy"
+    "context_notes": "General and Marxist political-economy term.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "monopoly capital": {
     "term": "monopoly capital",
     "preferred": "एकाधिकार पूँजी",
     "avoid_terms": [
-      "एकाधिकारी धन",
-      "एकल पूँजी"
+      "एकल पूँजी",
+      "एकाधिकारी धन"
     ],
-    "context_notes": "Use for capital organized under monopoly conditions.",
-    "category": "political_economy"
+    "context_notes": "Formal term.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "finance capital": {
     "term": "finance capital",
@@ -478,79 +569,97 @@
       "वित्त पूँजी",
       "पैसे की पूँजी"
     ],
-    "context_notes": "Use for the Marxist-Leninist concept linking bank and industrial capital; do not reduce it to money capital.",
-    "category": "political_economy"
+    "context_notes": "Do not use as a synonym for money capital.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "imperialism": {
     "term": "imperialism",
     "preferred": "साम्राज्यवाद",
     "avoid_terms": [
-      "साम्राज्य निर्माण",
-      "विस्तारवाद"
+      "विस्तारवाद",
+      "साम्राज्य निर्माण"
     ],
-    "context_notes": "Retain the established political-economy term. 'विस्तारवाद' is not an equivalent in Lenin's technical analysis.",
-    "category": "political_economy"
+    "context_notes": "Use the formal Leninist political-economy term.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "bourgeoisie": {
     "term": "bourgeoisie",
     "preferred": "बुर्जुआ वर्ग",
     "avoid_terms": [
-      "अमीर लोग",
+      "मध्यवर्ग",
       "पूँजीपति लोग",
-      "मध्यवर्ग"
+      "अमीर लोग"
     ],
-    "context_notes": "Formal class term. Use 'पूँजीपति वर्ग' only where the source specifically means the capitalist class rather than bourgeois society broadly.",
-    "category": "class_analysis"
+    "context_notes": "Do not use “मध्यवर्ग” as its general substitute.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "petty bourgeoisie": {
     "term": "petty bourgeoisie",
     "preferred": "निम्न बुर्जुआ वर्ग",
     "avoid_terms": [
-      "छोटे पूँजीपति",
-      "मध्यवर्ग"
+      "मध्यवर्ग.",
+      "मध्यवर्ग",
+      "छोटे पूँजीपति"
     ],
-    "context_notes": "For a social stratum between the bourgeoisie and proletariat; 'निम्नमध्यवर्ग' may be used only if the source is explicitly sociological rather than Marxist-theoretical.",
-    "category": "class_analysis"
+    "context_notes": "Do not reduce to “मध्यवर्ग.”",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "lumpenproletariat": {
     "term": "lumpenproletariat",
     "preferred": "लम्पट सर्वहारा",
     "avoid_terms": [
-      "अपराधी वर्ग",
-      "गरीब सर्वहारा"
+      "गरीब सर्वहारा",
+      "अपराधी वर्ग"
     ],
-    "context_notes": "Keep the established term; do not turn it into a blanket moral description of poor people.",
-    "category": "class_analysis"
+    "context_notes": "Established term; do not make it a blanket label for poor people.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "class struggle": {
     "term": "class struggle",
-    "preferred": "वर्ग संघर्ष",
+    "preferred": "वर्ग-संघर्ष",
     "avoid_terms": [
       "वर्गों का झगड़ा",
       "सामाजिक संघर्ष"
     ],
-    "context_notes": "Established Marxist term for conflict rooted in antagonistic class relations.",
-    "category": "class_analysis"
+    "context_notes": "Established Marxist term.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "class consciousness": {
     "term": "class consciousness",
     "preferred": "वर्ग-चेतना",
     "avoid_terms": [
       "वर्ग की समझ",
+      "वर्ग की समझ.",
       "सामाजिक जागरूकता"
     ],
-    "context_notes": "Use the hyphenated formal term, especially in Leninist discussion of political consciousness.",
-    "category": "class_analysis"
+    "context_notes": "Prefer over “वर्ग की समझ.”",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "dictatorship of the proletariat": {
     "term": "dictatorship of the proletariat",
-    "preferred": "सर्वहारा की तानाशाही",
+    "preferred": "सर्वहारा अधिनायकत्व",
     "avoid_terms": [
-      "सर्वहारा शासन",
-      "मजदूर सरकार"
+      "मजदूर सरकार",
+      "सर्वहारा शासन"
     ],
-    "context_notes": "Established Marxist term. Do not soften or replace it with a generic description of government; explain it in a note if needed.",
-    "category": "politics"
+    "context_notes": "Established Hindi Marxist form. “सर्वहारा की तानाशाही” may be retained where that is the source edition’s wording.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "revolution": {
     "term": "revolution",
@@ -559,8 +668,10 @@
       "बड़ा बदलाव",
       "विद्रोह"
     ],
-    "context_notes": "Keep distinct from a revolt, coup or reform unless the source uses those specific concepts.",
-    "category": "politics"
+    "context_notes": "Keep distinct from “विद्रोह” or “सुधार.”",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "reformism": {
     "term": "reformism",
@@ -569,8 +680,10 @@
       "सुधार",
       "उन्नति"
     ],
-    "context_notes": "A political tendency; do not translate as a neutral individual reform.",
-    "category": "politics"
+    "context_notes": "Formal political tendency.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "revisionism": {
     "term": "revisionism",
@@ -579,38 +692,47 @@
       "सुधारवाद",
       "पुनरीक्षण"
     ],
-    "context_notes": "Use for the established Marxist political-theoretical term; it is not identical to reformism.",
-    "category": "politics"
+    "context_notes": "Distinct from reformism.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "opportunism": {
     "term": "opportunism",
     "preferred": "अवसरवाद",
     "avoid_terms": [
-      "मौकापरस्ती",
-      "व्यावहारिकता"
+      "व्यावहारिकता.",
+      "व्यावहारिकता",
+      "मौकापरस्ती"
     ],
-    "context_notes": "Use the formal political term; 'व्यावहारिकता' is not equivalent.",
-    "category": "politics"
+    "context_notes": "Do not translate as neutral “व्यावहारिकता.”",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "social democracy": {
     "term": "social democracy",
-    "preferred": "सामाजिक जनवाद (Social Democracy)",
+    "preferred": "सामाजिक जनवाद",
     "avoid_terms": [
-      "समाजवादी लोकतंत्र",
-      "सामाजिक लोकतंत्र"
+      "सामाजिक लोकतंत्र",
+      "समाजवादी लोकतंत्र"
     ],
-    "context_notes": "Use the historical Marxist party and movement term. Keep English on first occurrence where the period matters.",
-    "category": "politics"
+    "context_notes": "Historical Marxist movement/party term.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "social democrat": {
     "term": "social democrat",
-    "preferred": "सामाजिक जनवादी (Social Democrat)",
+    "preferred": "सामाजिक जनवादी",
     "avoid_terms": [
-      "सोशल डेमोक्रेट",
-      "समाजवादी लोकतंत्रवादी"
+      "समाजवादी लोकतंत्रवादी",
+      "सोशल डेमोक्रेट"
     ],
-    "context_notes": "Use the established historical-political term, especially for Lenin-era parties and activists.",
-    "category": "politics"
+    "context_notes": "Use especially for Lenin-era parties and activists.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   },
   "socialism": {
     "term": "socialism",
@@ -639,7 +761,892 @@
       "अराजकता",
       "अव्यवस्था"
     ],
-    "context_notes": "A political doctrine, not a synonym for disorder.",
-    "category": "politics"
+    "context_notes": "Doctrine, not a synonym for disorder.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "marxism": {
+    "term": "Marxism",
+    "preferred": "मार्क्सवाद",
+    "avoid_terms": [],
+    "context_notes": "General name of the theory and tradition.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "materialist approach": {
+    "term": "materialist approach",
+    "preferred": "भौतिकवादी दृष्टिकोण",
+    "avoid_terms": [],
+    "context_notes": "Use where the source is not naming the formal doctrine.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "ideology": {
+    "term": "ideology",
+    "preferred": "विचारधारा",
+    "avoid_terms": [
+      "विचारों का समूह."
+    ],
+    "context_notes": "Prefer over “विचारों का समूह.”",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "scientific socialism": {
+    "term": "scientific socialism",
+    "preferred": "वैज्ञानिक समाजवाद",
+    "avoid_terms": [],
+    "context_notes": "Established Marxist term.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "social development": {
+    "term": "social development",
+    "preferred": "सामाजिक विकास",
+    "avoid_terms": [],
+    "context_notes": "Use in historical-materialist discussion.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "social structure": {
+    "term": "social structure",
+    "preferred": "सामाजिक ढाँचा",
+    "avoid_terms": [
+      "अधिरचना."
+    ],
+    "context_notes": "Use for a society’s structure; not necessarily “अधिरचना.”",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "social contradiction": {
+    "term": "social contradiction",
+    "preferred": "सामाजिक अन्तर्विरोध",
+    "avoid_terms": [],
+    "context_notes": "Use where class relations are the source of the contradiction.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "historical epoch": {
+    "term": "historical epoch",
+    "preferred": "ऐतिहासिक युग",
+    "avoid_terms": [],
+    "context_notes": "Preferred for a distinct historical period.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "social formation": {
+    "term": "social formation",
+    "preferred": "सामाजिक संरचना",
+    "avoid_terms": [],
+    "context_notes": "Choose “सामाजिक संरचना” when the source emphasizes composition or arrangement.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "structure": {
+    "term": "structure",
+    "preferred": "सामाजिक संरचना",
+    "avoid_terms": [],
+    "context_notes": "Choose “सामाजिक संरचना” when the source emphasizes composition or arrangement.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "primitive communal ownership": {
+    "term": "primitive communal ownership",
+    "preferred": "आदिम सामुदायिक स्वामित्व",
+    "avoid_terms": [],
+    "context_notes": "Formal historical-materialist expression.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "private ownership": {
+    "term": "private ownership",
+    "preferred": "निजी स्वामित्व",
+    "avoid_terms": [],
+    "context_notes": "Use for ownership as a social relation.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "collective ownership": {
+    "term": "collective ownership",
+    "preferred": "सामूहिक स्वामित्व",
+    "avoid_terms": [],
+    "context_notes": "Do not confuse with state ownership without context.",
+    "category": "Marxism, philosophy and historical materialism",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "political economy": {
+    "term": "political economy",
+    "preferred": "राजनीतिक अर्थशास्त्र",
+    "avoid_terms": [],
+    "context_notes": "Established discipline name.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "production": {
+    "term": "production",
+    "preferred": "उत्पादन",
+    "avoid_terms": [],
+    "context_notes": "General technical term.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "production system": {
+    "term": "production system",
+    "preferred": "उत्पादन प्रणाली",
+    "avoid_terms": [],
+    "context_notes": "Use for an organized system of production.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "labour-power": {
+    "term": "labour-power",
+    "preferred": "श्रम-शक्ति",
+    "avoid_terms": [],
+    "context_notes": "Distinct from labour; the worker’s capacity to work.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "wages": {
+    "term": "wages",
+    "preferred": "मजदूरी",
+    "avoid_terms": [],
+    "context_notes": "Payment for labour-power in everyday translation; retain context in technical passages.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "exploitation": {
+    "term": "exploitation",
+    "preferred": "शोषण",
+    "avoid_terms": [],
+    "context_notes": "Formal class relation, not merely harsh treatment.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "division of labour": {
+    "term": "division of labour",
+    "preferred": "श्रम का विभाजन",
+    "avoid_terms": [],
+    "context_notes": "Use for the social or technical division of labour.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "social division of labour": {
+    "term": "social division of labour",
+    "preferred": "सामाजिक श्रम-विभाजन",
+    "avoid_terms": [],
+    "context_notes": "Use where production is distributed across society.",
+    "category": "Political economy: production, labour and value",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "capital": {
+    "term": "capital",
+    "preferred": "पूँजी",
+    "avoid_terms": [
+      "धन"
+    ],
+    "context_notes": "Do not replace with “धन” in formal analysis.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "capitalist": {
+    "term": "capitalist",
+    "preferred": "पूँजीवादी",
+    "avoid_terms": [],
+    "context_notes": "Adjectival form, for example “पूँजीवादी उत्पादन.”",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "capitalism": {
+    "term": "capitalism",
+    "preferred": "पूँजीवाद",
+    "avoid_terms": [],
+    "context_notes": "The social system, not simply trade or commerce.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "centralization": {
+    "term": "centralization",
+    "preferred": "केन्द्रीकरण",
+    "avoid_terms": [],
+    "context_notes": "Use for the concentration of control or capital through merger/absorption.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "concentration": {
+    "term": "concentration",
+    "preferred": "संकेंद्रण",
+    "avoid_terms": [],
+    "context_notes": "Use for growth of capital/production in fewer or larger units.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "circulation of capital": {
+    "term": "circulation of capital",
+    "preferred": "पूँजी का परिचलन",
+    "avoid_terms": [],
+    "context_notes": "The movement of capital through its forms.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "distribution": {
+    "term": "distribution",
+    "preferred": "वितरण",
+    "avoid_terms": [],
+    "context_notes": "Use in production/distribution relations.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "consumption": {
+    "term": "consumption",
+    "preferred": "उपभोग",
+    "avoid_terms": [
+      "खपत"
+    ],
+    "context_notes": "Do not use “खपत” in formal political-economy prose.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "cost of production": {
+    "term": "cost of production",
+    "preferred": "उत्पादन लागत",
+    "avoid_terms": [],
+    "context_notes": "General economics and political economy.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "profit": {
+    "term": "profit",
+    "preferred": "मुनाफा",
+    "avoid_terms": [],
+    "context_notes": "Keep distinct from surplus value.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "average profit": {
+    "term": "average profit",
+    "preferred": "औसत मुनाफा",
+    "avoid_terms": [],
+    "context_notes": "Use in the transformation and equalization discussion.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "interest": {
+    "term": "interest",
+    "preferred": "ब्याज",
+    "avoid_terms": [],
+    "context_notes": "Payment for the use of loaned money/capital.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "credit": {
+    "term": "credit",
+    "preferred": "साख",
+    "avoid_terms": [],
+    "context_notes": "Use in banking and commercial-credit contexts.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "loan": {
+    "term": "loan",
+    "preferred": "ऋण",
+    "avoid_terms": [],
+    "context_notes": "Choose contextually; “साख” may be used for creditworthiness.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "money": {
+    "term": "money",
+    "preferred": "मुद्रा",
+    "avoid_terms": [],
+    "context_notes": "Formal economic term; specify “मुद्रा-पूँजी” where relevant.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "currency": {
+    "term": "currency",
+    "preferred": "मुद्रा",
+    "avoid_terms": [],
+    "context_notes": "Formal economic term; specify “मुद्रा-पूँजी” where relevant.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "money capital": {
+    "term": "money capital",
+    "preferred": "मुद्रा-पूँजी",
+    "avoid_terms": [],
+    "context_notes": "Do not use as a synonym for finance capital.",
+    "category": "Capital, accumulation, circulation and distribution",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "land": {
+    "term": "land",
+    "preferred": "भूमि",
+    "avoid_terms": [],
+    "context_notes": "General term.",
+    "category": "Land, agriculture and rent",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "landowner": {
+    "term": "landowner",
+    "preferred": "भू-स्वामी",
+    "avoid_terms": [],
+    "context_notes": "Use for the owner of landed property.",
+    "category": "Land, agriculture and rent",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "peasant": {
+    "term": "peasant",
+    "preferred": "किसान",
+    "avoid_terms": [],
+    "context_notes": "Determine from context whether class position requires a more precise term.",
+    "category": "Land, agriculture and rent",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "farmer": {
+    "term": "farmer",
+    "preferred": "किसान",
+    "avoid_terms": [],
+    "context_notes": "Determine from context whether class position requires a more precise term.",
+    "category": "Land, agriculture and rent",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "cultivator": {
+    "term": "cultivator",
+    "preferred": "कृषक",
+    "avoid_terms": [],
+    "context_notes": "Useful in general economics or legal discussion.",
+    "category": "Land, agriculture and rent",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "agriculture": {
+    "term": "agriculture",
+    "preferred": "कृषि",
+    "avoid_terms": [],
+    "context_notes": "Formal sector term.",
+    "category": "Land, agriculture and rent",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "agricultural production": {
+    "term": "agricultural production",
+    "preferred": "कृषि-उत्पादन",
+    "avoid_terms": [],
+    "context_notes": "Use in economic analysis.",
+    "category": "Land, agriculture and rent",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "agrarian crisis": {
+    "term": "agrarian crisis",
+    "preferred": "कृषि संकट",
+    "avoid_terms": [],
+    "context_notes": "Use where the crisis concerns agricultural social relations or production.",
+    "category": "Land, agriculture and rent",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "class": {
+    "term": "class",
+    "preferred": "वर्ग",
+    "avoid_terms": [],
+    "context_notes": "Formal social-class category.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "class interest": {
+    "term": "class interest",
+    "preferred": "वर्ग-हित",
+    "avoid_terms": [],
+    "context_notes": "Use for interests grounded in class position.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "exploited class": {
+    "term": "exploited class",
+    "preferred": "शोषित वर्ग",
+    "avoid_terms": [],
+    "context_notes": "Use where exploitation is the defining relation.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "exploiting class": {
+    "term": "exploiting class",
+    "preferred": "शोषक वर्ग",
+    "avoid_terms": [],
+    "context_notes": "Counterpart of “शोषित वर्ग.”",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "oppressed class": {
+    "term": "oppressed class",
+    "preferred": "उत्पीड़ित वर्ग",
+    "avoid_terms": [],
+    "context_notes": "Use where oppression, rather than exploitation alone, is central.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "working class": {
+    "term": "working class",
+    "preferred": "मजदूर वर्ग",
+    "avoid_terms": [],
+    "context_notes": "Use when the source is broader or less technical than “सर्वहारा वर्ग.”",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "wage worker": {
+    "term": "wage worker",
+    "preferred": "वेतनभोगी श्रमिक",
+    "avoid_terms": [],
+    "context_notes": "Useful when wage relation is being emphasized.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "capitalist class": {
+    "term": "capitalist class",
+    "preferred": "पूँजीपति वर्ग",
+    "avoid_terms": [],
+    "context_notes": "Use where ownership of capital is specifically emphasized.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "landlord class": {
+    "term": "landlord class",
+    "preferred": "भूमिपति वर्ग",
+    "avoid_terms": [],
+    "context_notes": "Use in agrarian class analysis.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "artisan": {
+    "term": "artisan",
+    "preferred": "कारीगर",
+    "avoid_terms": [],
+    "context_notes": "Use for small independent producers where appropriate.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "trade union": {
+    "term": "trade union",
+    "preferred": "ट्रेड यूनियन",
+    "avoid_terms": [],
+    "context_notes": "Retain the established loan expression; “मजदूर संघ” may be added on first use.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "workers’ movement": {
+    "term": "workers’ movement",
+    "preferred": "मजदूर आन्दोलन",
+    "avoid_terms": [],
+    "context_notes": "Use for organized collective activity, not isolated protest.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "labour movement": {
+    "term": "labour movement",
+    "preferred": "मजदूर आन्दोलन",
+    "avoid_terms": [],
+    "context_notes": "Use for organized collective activity, not isolated protest.",
+    "category": "Classes, social groups and organization",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "state": {
+    "term": "state",
+    "preferred": "राज्य",
+    "avoid_terms": [
+      "सरकार."
+    ],
+    "context_notes": "Formal political category; not merely “सरकार.”",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "state power": {
+    "term": "state power",
+    "preferred": "राज्यसत्ता",
+    "avoid_terms": [],
+    "context_notes": "Use for control over the state’s coercive/political power.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "capitalist state": {
+    "term": "capitalist state",
+    "preferred": "पूँजीवादी राज्य",
+    "avoid_terms": [],
+    "context_notes": "Use for the state in capitalist society.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "proletarian revolution": {
+    "term": "proletarian revolution",
+    "preferred": "सर्वहारा क्रान्ति",
+    "avoid_terms": [],
+    "context_notes": "Formal term.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "democratic revolution": {
+    "term": "democratic revolution",
+    "preferred": "जनवादी क्रान्ति",
+    "avoid_terms": [],
+    "context_notes": "Historical-political category.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "national liberation": {
+    "term": "national liberation",
+    "preferred": "राष्ट्रीय मुक्ति",
+    "avoid_terms": [],
+    "context_notes": "Use in anti-colonial context.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "national liberation struggle": {
+    "term": "national liberation struggle",
+    "preferred": "राष्ट्रीय मुक्ति संघर्ष",
+    "avoid_terms": [],
+    "context_notes": "Preferred formal phrase.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "colonialism": {
+    "term": "colonialism",
+    "preferred": "उपनिवेशवाद",
+    "avoid_terms": [],
+    "context_notes": "Do not use merely for foreign influence.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "neocolonialism": {
+    "term": "neocolonialism",
+    "preferred": "नव-उपनिवेशवाद",
+    "avoid_terms": [],
+    "context_notes": "Modern political-economy term.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "reform": {
+    "term": "reform",
+    "preferred": "सुधार",
+    "avoid_terms": [],
+    "context_notes": "A specific change; not a political tendency.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "internationalism": {
+    "term": "internationalism",
+    "preferred": "अन्तरराष्ट्रीयतावाद",
+    "avoid_terms": [],
+    "context_notes": "Formal workers’ movement term.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "revolutionary strategy": {
+    "term": "revolutionary strategy",
+    "preferred": "क्रान्तिकारी रणनीति",
+    "avoid_terms": [],
+    "context_notes": "Long-term political orientation.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "tactics": {
+    "term": "tactics",
+    "preferred": "रणकौशल",
+    "avoid_terms": [],
+    "context_notes": "Use for concrete methods and immediate manoeuvres.",
+    "category": "State, politics and political movements",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "economy": {
+    "term": "economy",
+    "preferred": "अर्थव्यवस्था",
+    "avoid_terms": [],
+    "context_notes": "General term for the economic system.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "economic development": {
+    "term": "economic development",
+    "preferred": "आर्थिक विकास",
+    "avoid_terms": [],
+    "context_notes": "Use for long-term structural change.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "economic growth": {
+    "term": "economic growth",
+    "preferred": "आर्थिक वृद्धि",
+    "avoid_terms": [],
+    "context_notes": "Use for quantitative expansion, often output or income.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "national income": {
+    "term": "national income",
+    "preferred": "राष्ट्रीय आय",
+    "avoid_terms": [],
+    "context_notes": "Formal macroeconomic term.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "gross domestic product": {
+    "term": "gross domestic product",
+    "preferred": "सकल घरेलू उत्पाद",
+    "avoid_terms": [],
+    "context_notes": "Use “सकल घरेलू उत्पाद (GDP)” on first occurrence.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "per capita income": {
+    "term": "per capita income",
+    "preferred": "प्रति व्यक्ति आय",
+    "avoid_terms": [],
+    "context_notes": "General macroeconomic term.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "demand": {
+    "term": "demand",
+    "preferred": "मांग",
+    "avoid_terms": [],
+    "context_notes": "Do not confuse with need.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "supply": {
+    "term": "supply",
+    "preferred": "आपूर्ति",
+    "avoid_terms": [],
+    "context_notes": "Standard economics term.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "market": {
+    "term": "market",
+    "preferred": "बाजार",
+    "avoid_terms": [],
+    "context_notes": "General economics term.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "competition": {
+    "term": "competition",
+    "preferred": "प्रतिस्पर्धा",
+    "avoid_terms": [],
+    "context_notes": "Use in market and monopoly analysis.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "unemployment": {
+    "term": "unemployment",
+    "preferred": "बेरोजगारी",
+    "avoid_terms": [],
+    "context_notes": "General labour-market term.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "reserve army of labour": {
+    "term": "reserve army of labour",
+    "preferred": "बेरोजगार श्रम-सेना",
+    "avoid_terms": [],
+    "context_notes": "Use only for the Marxist concept, not for unemployment in general.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "inflation": {
+    "term": "inflation",
+    "preferred": "मुद्रास्फीति",
+    "avoid_terms": [],
+    "context_notes": "Standard macroeconomic term.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "economic crisis": {
+    "term": "economic crisis",
+    "preferred": "आर्थिक संकट",
+    "avoid_terms": [],
+    "context_notes": "Use for systemic crisis; specify financial or balance-of-payments crisis where necessary.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "business cycle": {
+    "term": "business cycle",
+    "preferred": "व्यापार चक्र",
+    "avoid_terms": [],
+    "context_notes": "General macroeconomic term.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "fiscal policy": {
+    "term": "fiscal policy",
+    "preferred": "राजकोषीय नीति",
+    "avoid_terms": [],
+    "context_notes": "Government revenue and expenditure policy.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "monetary policy": {
+    "term": "monetary policy",
+    "preferred": "मौद्रिक नीति",
+    "avoid_terms": [],
+    "context_notes": "Central-bank and money/credit policy.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "tax": {
+    "term": "tax",
+    "preferred": "कर",
+    "avoid_terms": [],
+    "context_notes": "General public-finance term.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "budget": {
+    "term": "budget",
+    "preferred": "बजट",
+    "avoid_terms": [],
+    "context_notes": "General public-finance term.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "public expenditure": {
+    "term": "public expenditure",
+    "preferred": "सार्वजनिक व्यय",
+    "avoid_terms": [],
+    "context_notes": "General public-finance term.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "inequality": {
+    "term": "inequality",
+    "preferred": "असमानता",
+    "avoid_terms": [],
+    "context_notes": "Add “आर्थिक” or “आय” where precision is needed.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "income distribution": {
+    "term": "income distribution",
+    "preferred": "आय-वितरण",
+    "avoid_terms": [],
+    "context_notes": "General economics term.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "productivity": {
+    "term": "productivity",
+    "preferred": "उत्पादकता",
+    "avoid_terms": [],
+    "context_notes": "Output relative to labour, time or other inputs.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "exchange rate": {
+    "term": "exchange rate",
+    "preferred": "विनिमय दर",
+    "avoid_terms": [],
+    "context_notes": "Currency conversion rate.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
+  },
+  "balance of payments": {
+    "term": "balance of payments",
+    "preferred": "भुगतान संतुलन",
+    "avoid_terms": [],
+    "context_notes": "Formal external-sector term.",
+    "category": "General economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T12:35:00Z"
   }
 }
