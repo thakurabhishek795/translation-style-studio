@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Studio Elements
   const studioInput = document.getElementById("studio-input");
   const studioOutput = document.getElementById("studio-output");
+  const studioBad = document.getElementById("studio-bad");
   const studioLang = document.getElementById("studio-lang");
   const studioThreshold = document.getElementById("studio-threshold");
   const thresholdVal = document.getElementById("threshold-val");
@@ -217,17 +218,24 @@ document.addEventListener("DOMContentLoaded", () => {
   btnApproveTm.addEventListener("click", async () => {
     const source = studioInput.value.trim();
     const target = studioOutput.value.trim();
+    const badLiteral = studioBad.value.trim();
     if (!source || !target) return alert("Source and target translation are required.");
 
     try {
       const res = await fetch(`${API_BASE}/api/tm`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: jsonBody({ source, target, category: "approved_studio" })
+        body: jsonBody({
+          source,
+          target,
+          bad_literal: badLiteral || null,
+          category: "approved_studio"
+        })
       });
       const data = await res.json();
       if (data.success) {
-        alert("✅ Successfully added to Translation Memory! Future queries will now match this style.");
+        alert("✅ Successfully added to Translation Memory with contrastive rules!");
+        studioBad.value = "";
         fetchStatus();
         loadTm();
       }

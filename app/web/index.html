@@ -74,6 +74,13 @@
             </div>
             <textarea id="studio-output" rows="5" placeholder="Your style-guided translation will appear here..."></textarea>
 
+            <div class="form-group" style="margin-top: 12px;">
+              <label style="font-size: 12px; color: var(--text-secondary); display:block; margin-bottom: 4px;">
+                🚫 Literal Translation to AVOID (Optional Contrastive Example):
+              </label>
+              <input type="text" id="studio-bad" placeholder="Paste the bad/robotic literal translation here to teach the model what NOT to do...">
+            </div>
+
             <div class="action-bar">
               <button id="btn-approve-tm" class="btn btn-success">✅ Approve & Add to Translation Memory</button>
             </div>
