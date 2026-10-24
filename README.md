@@ -119,6 +119,7 @@ For large-scale academic, historical, and political economy book translations, L
    - `scripts/translate_book_pipeline.py` automatically validates translations, failing any attempt that uses forbidden colloquialisms or alters LaTeX equations / Markdown tables.
 
 > 📖 **Read the full specification**: See [docs/prompts/book_translation_master_prompt.md](docs/prompts/book_translation_master_prompt.md) for the complete copy-pasteable system prompt, dynamic RAG template, and execution examples.
+> 💻 **Hardware & Deployment Guide**: See [docs/deployment/rtx4070_windows_mac_guide.md](docs/deployment/rtx4070_windows_mac_guide.md) for running on an **RTX 4070 (8GB VRAM)** with Windows CUDA and porting to macOS (Apple Silicon / Metal).
 
 ---
 
