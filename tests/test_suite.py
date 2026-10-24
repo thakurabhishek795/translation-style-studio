@@ -8,6 +8,7 @@ if BASE_DIR not in sys.path:
 
 from app.core.memory import TranslationMemory
 from app.core.glossary import Glossary
+from app.core.concept_kb import ConceptKnowledgeBase
 from app.core.prompt_engine import PromptEngine
 from app.core.lora_exporter import LoRAExporter
 from app.core.document_parser import DocumentParser
@@ -18,6 +19,7 @@ class TestLinguaStyleStudio(unittest.TestCase):
         self.test_gl_file = os.path.join(BASE_DIR, "data", "test_gl.json")
         self.tm = TranslationMemory(storage_path=self.test_tm_file)
         self.gl = Glossary(storage_path=self.test_gl_file)
+        self.concept_kb = ConceptKnowledgeBase(storage_path=os.path.join(BASE_DIR, "data", "mia_encyclopedia.json"))
 
     def tearDown(self):
         if os.path.exists(self.test_tm_file):
@@ -48,6 +50,13 @@ class TestLinguaStyleStudio(unittest.TestCase):
         matches = self.gl.find_matching_terms(text)
         self.assertEqual(len(matches), 1)
         self.assertEqual(matches[0]["preferred"], "अधिशेष श्रम")
+
+    def test_concept_kb_match(self):
+        text = "The extraction of absolute surplus value requires lengthening the working day."
+        matches = self.concept_kb.find_matching_concepts(text)
+        self.assertTrue(len(matches) >= 1)
+        term_names = [m["term"] for m in matches]
+        self.assertTrue(any("Surplus Value" in t for t in term_names))
 
     def test_prompt_assembler(self):
         prompt = PromptEngine.build_prompt(

@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const tabPanes = document.querySelectorAll(".tab-pane");
   const statTm = document.getElementById("stat-tm");
   const statGlossary = document.getElementById("stat-glossary");
+  const statConcepts = document.getElementById("stat-concepts");
   const btnSeed = document.getElementById("btn-seed");
 
   // Studio Elements
@@ -20,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const btnApproveTm = document.getElementById("btn-approve-tm");
   const inspectorTmList = document.getElementById("inspector-tm-list");
   const inspectorGlossaryList = document.getElementById("inspector-glossary-list");
+  const inspectorConceptList = document.getElementById("inspector-concept-list");
   const promptPreviewCode = document.getElementById("prompt-preview-code");
   const providerBadge = document.getElementById("provider-badge");
 
@@ -88,6 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const data = await res.json();
       statTm.textContent = data.tm_segments_count;
       statGlossary.textContent = data.glossary_terms_count;
+      if (statConcepts) statConcepts.textContent = data.mia_concepts_count || 688;
       loraStatSegments.textContent = data.tm_segments_count;
     } catch (e) {
       console.error("Status fetch failed:", e);
@@ -201,6 +204,21 @@ document.addEventListener("DOMContentLoaded", () => {
         `).join("");
       } else {
         inspectorGlossaryList.innerHTML = `<p class="placeholder-text">No registered glossary terms found in this sentence.</p>`;
+      }
+
+      // Render MIA Theoretical Concepts
+      if (data.concept_matches && data.concept_matches.length > 0) {
+        inspectorConceptList.innerHTML = data.concept_matches.map(c => `
+          <div class="mini-item concept">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <strong style="color:#c084fc;">📖 "${escapeHtml(c.term)}"</strong>
+              ${c.source_url ? `<a href="${c.source_url}" target="_blank" rel="noopener">MIA Reference ↗</a>` : ""}
+            </div>
+            <div style="font-size:12px; color:#e2e8f0; margin-top:4px;">${escapeHtml(c.definition)}</div>
+          </div>
+        `).join("");
+      } else {
+        inspectorConceptList.innerHTML = `<p class="placeholder-text">No matching MIA encyclopedia concepts found in this sentence.</p>`;
       }
 
       // Render Prompt Inspector

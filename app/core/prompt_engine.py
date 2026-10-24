@@ -25,10 +25,17 @@ class PromptEngine:
         target_language: str = "Hindi",
         tm_matches: Optional[List[Dict]] = None,
         glossary_matches: Optional[List[Dict]] = None,
+        concept_matches: Optional[List[Dict]] = None,
         custom_style_directives: Optional[str] = None
     ) -> Dict:
         """
         Builds both a system prompt and a user prompt structured for modern LLMs.
+        Fuses:
+        1. Target style directives & negative constraints
+        2. Retrieved Translation Memory (TM) exemplars
+        3. Matching Context Glossary terms with 'avoid' restrictions
+        4. Theoretical Concept Definitions (MIA Encyclopedia) for semantic grounding
+        5. Source text segment
         """
         directives = custom_style_directives.strip() if custom_style_directives else cls.DEFAULT_STYLE_DIRECTIVES
 
@@ -43,7 +50,15 @@ class PromptEngine:
         # 2. User Prompt Assembly
         user_parts = []
 
-        # A. Translation Memory Section
+        # A. Theoretical Concept Grounding (MIA Encyclopedia)
+        if concept_matches:
+            user_parts.append("### Theoretical Context & Concept Definitions (MIA Encyclopedia):")
+            user_parts.append("Understand the precise dialectical/Marxian meaning of these concepts before translating:")
+            for c in concept_matches:
+                user_parts.append(f"  • Concept: \"{c['term']}\"\n    Definition: {c['definition']}")
+            user_parts.append("")
+
+        # B. Translation Memory Section
         if tm_matches:
             user_parts.append("### Approved Translation Memory (Style & Rhythm References):")
             user_parts.append("Learn from the tone, cadence, and phrasing of these approved translations:")
@@ -58,7 +73,7 @@ class PromptEngine:
                 user_parts.append(block)
             user_parts.append("")
 
-        # B. Context Glossary Section
+        # C. Context Glossary Section
         if glossary_matches:
             user_parts.append("### Mandatory Terminology & Context Guidelines:")
             for item in glossary_matches:
@@ -71,7 +86,7 @@ class PromptEngine:
                 user_parts.append(g_line)
             user_parts.append("")
 
-        # C. Task Section
+        # D. Task Section
         user_parts.append(f"### Source Text to Translate into {target_language}:")
         user_parts.append(f"\"{source_text}\"\n")
         user_parts.append(f"### {target_language} Translation (Author Style):")

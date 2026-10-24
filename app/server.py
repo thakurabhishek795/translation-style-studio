@@ -16,6 +16,7 @@ if BASE_DIR not in sys.path:
 
 from app.core.memory import TranslationMemory
 from app.core.glossary import Glossary
+from app.core.concept_kb import ConceptKnowledgeBase
 from app.core.prompt_engine import PromptEngine
 from app.core.lora_exporter import LoRAExporter
 from app.core.document_parser import DocumentParser
@@ -25,6 +26,7 @@ from app.core.translator import TranslatorClient
 DATA_DIR = os.path.join(BASE_DIR, "data")
 tm = TranslationMemory(storage_path=os.path.join(DATA_DIR, "tm_store.json"))
 glossary = Glossary(storage_path=os.path.join(DATA_DIR, "glossary.json"))
+concept_kb = ConceptKnowledgeBase(storage_path=os.path.join(DATA_DIR, "mia_encyclopedia.json"))
 translator = TranslatorClient()
 
 WEB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "web")
@@ -73,8 +75,15 @@ class StudioRequestHandler(SimpleHTTPRequestHandler):
                 "status": "online",
                 "tm_segments_count": len(tm.get_all()),
                 "glossary_terms_count": len(glossary.get_all()),
+                "mia_concepts_count": len(concept_kb.concepts),
                 "llm_provider": translator.provider
             })
+
+        if path == "/api/concepts":
+            q = query.get("q", [""])[0]
+            limit = int(query.get("limit", [10])[0])
+            results = concept_kb.search(q, limit=limit) if q else concept_kb.concepts[:limit]
+            return self._send_json(results)
 
         if path == "/api/tm":
             q = query.get("q", [""])[0]
@@ -140,19 +149,23 @@ class StudioRequestHandler(SimpleHTTPRequestHandler):
             threshold = float(body.get("threshold", 0.20))
             custom_directives = body.get("custom_directives")
 
-            # A. RAG retrieval
+            # A. RAG retrieval from Translation Memory
             tm_matches = tm.retrieve_similar(source_text, top_k=top_k, threshold=threshold)
             # B. Glossary matching
             glossary_matches = glossary.find_matching_terms(source_text)
-            # C. Prompt assembly
+            # C. MIA Theoretical Concepts matching
+            concept_matches = concept_kb.find_matching_concepts(source_text)
+
+            # D. Prompt assembly
             assembled = PromptEngine.build_prompt(
                 source_text=source_text,
                 target_language=target_lang,
                 tm_matches=tm_matches,
                 glossary_matches=glossary_matches,
+                concept_matches=concept_matches,
                 custom_style_directives=custom_directives
             )
-            # D. Execute translation (Ollama, OpenAI, or smart preview)
+            # E. Execute translation (Ollama, OpenAI, or smart preview)
             result = translator.translate(
                 system_prompt=assembled["system_prompt"],
                 user_prompt=assembled["user_prompt"]
@@ -162,6 +175,7 @@ class StudioRequestHandler(SimpleHTTPRequestHandler):
                 "source_text": source_text,
                 "tm_matches": tm_matches,
                 "glossary_matches": glossary_matches,
+                "concept_matches": concept_matches,
                 "assembled_prompt": assembled,
                 "translation_result": result
             })
