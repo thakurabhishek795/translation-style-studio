@@ -1,15 +1,13 @@
 {
   "mode of production": {
     "term": "mode of production",
-    "preferred": "उत्पादन की प्रणाली (mode of production)",
+    "preferred": "उत्पादन-पद्धति (mode of production)",
     "avoid_terms": [
       "उत्पादन का तरीका",
       "बनाने की विधि"
     ],
-    "context_notes": "Standard Marxist concept; preserve transliteration or formal term.",
-    "category": "economics",
-    "case_sensitive": false,
-    "updated_at": "2026-10-24T05:42:11Z"
+    "context_notes": "Formal Marxist category combining productive forces and relations of production. Use the English in parentheses on first occurrence.",
+    "category": "political_economy"
   },
   "surplus labor": {
     "term": "surplus labor",
@@ -26,15 +24,13 @@
   },
   "commodity": {
     "term": "commodity",
-    "preferred": "कमोडिटी",
+    "preferred": "माल",
     "avoid_terms": [
       "वस्तु",
-      "चीज़"
+      "सामान"
     ],
-    "context_notes": "Keep transliterated when referring to goods produced specifically for exchange.",
-    "category": "economics",
-    "case_sensitive": false,
-    "updated_at": "2026-10-24T05:42:11Z"
+    "context_notes": "In Marxian political economy 'माल' is the standard term for an object produced for exchange. 'वस्तु' is too broad.",
+    "category": "political_economy"
   },
   "feedback": {
     "term": "feedback",
@@ -65,9 +61,585 @@
       "गरीब लोग",
       "मजदूर लोग"
     ],
-    "context_notes": "Formal sociological/political term.",
-    "category": "economics",
-    "case_sensitive": false,
-    "updated_at": "2026-10-24T05:42:11Z"
+    "context_notes": "Formal class category; it is not synonymous with all poor people or all wage earners in ordinary speech.",
+    "category": "class_analysis"
+  },
+  "means of production": {
+    "term": "means of production",
+    "preferred": "उत्पादन के साधन",
+    "avoid_terms": [
+      "बनाने के साधन",
+      "उत्पादन के तरीके"
+    ],
+    "context_notes": "Includes instruments of labour and objects of labour; do not reduce it to machinery alone.",
+    "category": "political_economy"
+  },
+  "productive forces": {
+    "term": "productive forces",
+    "preferred": "उत्पादक शक्तियाँ",
+    "avoid_terms": [
+      "उत्पादन बल",
+      "निर्माण शक्तियाँ"
+    ],
+    "context_notes": "Established historical-materialist term; includes labour power, knowledge, techniques and instruments of production.",
+    "category": "historical_materialism"
+  },
+  "relations of production": {
+    "term": "relations of production",
+    "preferred": "उत्पादन सम्बन्ध",
+    "avoid_terms": [
+      "उत्पादन के रिश्ते",
+      "काम के सम्बन्ध"
+    ],
+    "context_notes": "Use for the social relations through which production is organized, especially property and class relations.",
+    "category": "historical_materialism"
+  },
+  "economic base": {
+    "term": "economic base",
+    "preferred": "आर्थिक आधार",
+    "avoid_terms": [
+      "आर्थिक नींव",
+      "अर्थव्यवस्था का आधार"
+    ],
+    "context_notes": "Use with 'अधिरचना' when translating the base-superstructure relation.",
+    "category": "historical_materialism"
+  },
+  "superstructure": {
+    "term": "superstructure",
+    "preferred": "अधिरचना",
+    "avoid_terms": [
+      "ऊपरी ढाँचा",
+      "अतिरिक्त संरचना"
+    ],
+    "context_notes": "Established Marxist term for political, legal and ideological forms related to the economic base.",
+    "category": "historical_materialism"
+  },
+  "dialectical materialism": {
+    "term": "dialectical materialism",
+    "preferred": "द्वन्द्वात्मक भौतिकवाद",
+    "avoid_terms": [
+      "तार्किक भौतिकवाद",
+      "विवादात्मक भौतिकवाद"
+    ],
+    "context_notes": "Retain the formal philosophical term; do not paraphrase it as a generic materialist outlook.",
+    "category": "philosophy"
+  },
+  "historical materialism": {
+    "term": "historical materialism",
+    "preferred": "ऐतिहासिक भौतिकवाद",
+    "avoid_terms": [
+      "इतिहास का भौतिकवाद",
+      "भौतिकवादी इतिहास"
+    ],
+    "context_notes": "Formal Marxist method for explaining historical development through material social relations.",
+    "category": "philosophy"
+  },
+  "contradiction": {
+    "term": "contradiction",
+    "preferred": "अन्तर्विरोध",
+    "avoid_terms": [
+      "विरोधाभास",
+      "असहमति"
+    ],
+    "context_notes": "In dialectical and political-economy contexts use 'अन्तर्विरोध'; reserve ordinary words for a simple inconsistency or disagreement.",
+    "category": "dialectics"
+  },
+  "use value": {
+    "term": "use value",
+    "preferred": "उपयोग-मूल्य",
+    "avoid_terms": [
+      "उपयोगिता",
+      "इस्तेमाल की कीमत"
+    ],
+    "context_notes": "Use the hyphenated technical term; it is not the same as utility in neoclassical economics.",
+    "category": "political_economy"
+  },
+  "exchange value": {
+    "term": "exchange value",
+    "preferred": "विनिमय-मूल्य",
+    "avoid_terms": [
+      "बदले की कीमत",
+      "बाजार मूल्य"
+    ],
+    "context_notes": "Do not equate it automatically with market price.",
+    "category": "political_economy"
+  },
+  "value": {
+    "term": "value",
+    "preferred": "मूल्य",
+    "avoid_terms": [
+      "कीमत",
+      "महत्त्व"
+    ],
+    "context_notes": "In the labour theory of value, translate as 'मूल्य'. Use 'कीमत' only for price.",
+    "category": "political_economy"
+  },
+  "price": {
+    "term": "price",
+    "preferred": "कीमत",
+    "avoid_terms": [
+      "मूल्य"
+    ],
+    "context_notes": "Keep distinct from Marxian 'मूल्य' (value), unless the source explicitly uses value in the ordinary non-technical sense.",
+    "category": "political_economy"
+  },
+  "labour": {
+    "term": "labour",
+    "preferred": "श्रम",
+    "avoid_terms": [
+      "काम",
+      "मेहनत"
+    ],
+    "context_notes": "Use the formal term in political economy; 'काम' may be suitable only in non-technical prose.",
+    "category": "political_economy"
+  },
+  "labour power": {
+    "term": "labour power",
+    "preferred": "श्रम-शक्ति",
+    "avoid_terms": [
+      "श्रम",
+      "मजदूर की मेहनत"
+    ],
+    "context_notes": "A distinct Marxian category: the worker's capacity to labour, sold as a commodity under capitalism.",
+    "category": "political_economy"
+  },
+  "labour process": {
+    "term": "labour process",
+    "preferred": "श्रम-प्रक्रिया",
+    "avoid_terms": [
+      "काम करने की प्रक्रिया",
+      "श्रम व्यवस्था"
+    ],
+    "context_notes": "Use for the process in which labour acts on an object through instruments of labour.",
+    "category": "political_economy"
+  },
+  "abstract labour": {
+    "term": "abstract labour",
+    "preferred": "अमूर्त श्रम",
+    "avoid_terms": [
+      "काल्पनिक श्रम",
+      "सामान्य काम"
+    ],
+    "context_notes": "Technical value-form category; do not paraphrase it as imaginary labour.",
+    "category": "political_economy"
+  },
+  "concrete labour": {
+    "term": "concrete labour",
+    "preferred": "मूर्त श्रम",
+    "avoid_terms": [
+      "वास्तविक श्रम",
+      "खास काम"
+    ],
+    "context_notes": "Use as the counterpart of 'अमूर्त श्रम' in the analysis of the commodity.",
+    "category": "political_economy"
+  },
+  "socially necessary labour time": {
+    "term": "socially necessary labour time",
+    "preferred": "सामाजिक रूप से आवश्यक श्रम-समय",
+    "avoid_terms": [
+      "औसत काम का समय",
+      "जरूरी श्रम-समय"
+    ],
+    "context_notes": "Formal value-theory term; retain the full phrase.",
+    "category": "political_economy"
+  },
+  "surplus value": {
+    "term": "surplus value",
+    "preferred": "अतिरिक्त मूल्य",
+    "avoid_terms": [
+      "अधिक मूल्य",
+      "बचा हुआ मूल्य",
+      "लाभ"
+    ],
+    "context_notes": "Do not translate as profit. It is the value appropriated beyond the value of labour-power.",
+    "category": "political_economy"
+  },
+  "surplus labour": {
+    "term": "surplus labour",
+    "preferred": "अतिरिक्त श्रम",
+    "avoid_terms": [
+      "फालतू श्रम",
+      "अतिरिक्त काम"
+    ],
+    "context_notes": "Use for labour performed beyond necessary labour, not simply overtime work.",
+    "category": "political_economy"
+  },
+  "necessary labour": {
+    "term": "necessary labour",
+    "preferred": "आवश्यक श्रम",
+    "avoid_terms": [
+      "ज़रूरी काम",
+      "अनिवार्य श्रम"
+    ],
+    "context_notes": "Use in relation to the reproduction of the value of labour-power.",
+    "category": "political_economy"
+  },
+  "constant capital": {
+    "term": "constant capital",
+    "preferred": "स्थिर पूँजी",
+    "avoid_terms": [
+      "नियत पूँजी",
+      "अचल पूँजी"
+    ],
+    "context_notes": "Marx's category of capital transferred to the product without creating new value; not merely fixed capital.",
+    "category": "political_economy"
+  },
+  "variable capital": {
+    "term": "variable capital",
+    "preferred": "परिवर्तनशील पूँजी",
+    "avoid_terms": [
+      "चल पूँजी",
+      "बदलती पूँजी"
+    ],
+    "context_notes": "Capital laid out on labour-power that produces surplus value; do not confuse with circulating capital.",
+    "category": "political_economy"
+  },
+  "fixed capital": {
+    "term": "fixed capital",
+    "preferred": "स्थिर पूँजीगत साधन (fixed capital)",
+    "avoid_terms": [
+      "स्थिर पूँजी"
+    ],
+    "context_notes": "Keep distinct from Marx's 'constant capital'. The English in parentheses is recommended on first use.",
+    "category": "political_economy"
+  },
+  "circulating capital": {
+    "term": "circulating capital",
+    "preferred": "परिचलनशील पूँजी",
+    "avoid_terms": [
+      "चल पूँजी",
+      "परिवर्तनशील पूँजी"
+    ],
+    "context_notes": "Keep distinct from variable capital; the categories overlap differently.",
+    "category": "political_economy"
+  },
+  "organic composition of capital": {
+    "term": "organic composition of capital",
+    "preferred": "पूँजी का जैविक संघटन",
+    "avoid_terms": [
+      "पूँजी की संरचना",
+      "पूँजी का अनुपात"
+    ],
+    "context_notes": "Formal term for the value composition of capital insofar as it reflects its technical composition.",
+    "category": "political_economy"
+  },
+  "accumulation of capital": {
+    "term": "accumulation of capital",
+    "preferred": "पूँजी संचय",
+    "avoid_terms": [
+      "पूँजी की बचत",
+      "पैसा जमा करना"
+    ],
+    "context_notes": "Use for the conversion of surplus value into additional capital.",
+    "category": "political_economy"
+  },
+  "primitive accumulation": {
+    "term": "primitive accumulation",
+    "preferred": "आदिम संचय",
+    "avoid_terms": [
+      "प्रारम्भिक बचत",
+      "मूल संचय"
+    ],
+    "context_notes": "Formal Marxist term concerning the historical separation of producers from the means of production.",
+    "category": "political_economy"
+  },
+  "reproduction": {
+    "term": "reproduction",
+    "preferred": "पुनरुत्पादन",
+    "avoid_terms": [
+      "दोबारा उत्पादन",
+      "प्रजनन"
+    ],
+    "context_notes": "In political economy, use for the renewal of the conditions of production and social relations.",
+    "category": "political_economy"
+  },
+  "simple reproduction": {
+    "term": "simple reproduction",
+    "preferred": "सरल पुनरुत्पादन",
+    "avoid_terms": [
+      "साधारण दोबारा उत्पादन"
+    ],
+    "context_notes": "Reproduction on the same scale; retain the paired term with extended reproduction.",
+    "category": "political_economy"
+  },
+  "extended reproduction": {
+    "term": "extended reproduction",
+    "preferred": "विस्तारित पुनरुत्पादन",
+    "avoid_terms": [
+      "बढ़ा हुआ उत्पादन",
+      "विस्तृत दोबारा उत्पादन"
+    ],
+    "context_notes": "Reproduction on an expanded scale through accumulation.",
+    "category": "political_economy"
+  },
+  "turnover of capital": {
+    "term": "turnover of capital",
+    "preferred": "पूँजी का आवर्तन",
+    "avoid_terms": [
+      "पूँजी का कारोबार",
+      "पूँजी का लेन-देन"
+    ],
+    "context_notes": "Technical term for capital's circuit and the time required for its renewal.",
+    "category": "political_economy"
+  },
+  "rate of surplus value": {
+    "term": "rate of surplus value",
+    "preferred": "अतिरिक्त मूल्य की दर",
+    "avoid_terms": [
+      "मुनाफे की दर",
+      "अधिशेष की दर"
+    ],
+    "context_notes": "Do not merge with the rate of profit.",
+    "category": "political_economy"
+  },
+  "rate of profit": {
+    "term": "rate of profit",
+    "preferred": "मुनाफे की दर",
+    "avoid_terms": [
+      "अतिरिक्त मूल्य की दर",
+      "लाभ की दर"
+    ],
+    "context_notes": "Use consistently for the ratio of surplus value to total capital advanced.",
+    "category": "political_economy"
+  },
+  "tendency of the rate of profit to fall": {
+    "term": "tendency of the rate of profit to fall",
+    "preferred": "मुनाफे की दर में गिरावट की प्रवृत्ति",
+    "avoid_terms": [
+      "मुनाफा हमेशा घटता है",
+      "लाभ में कमी का नियम"
+    ],
+    "context_notes": "Translate as a tendency, not as an unconditional or mechanically universal prediction.",
+    "category": "political_economy"
+  },
+  "rent": {
+    "term": "rent",
+    "preferred": "लगान",
+    "avoid_terms": [
+      "किराया"
+    ],
+    "context_notes": "In Marxian agrarian political economy use 'लगान'; use 'किराया' for ordinary tenancy only when the technical category is not intended.",
+    "category": "political_economy"
+  },
+  "differential rent": {
+    "term": "differential rent",
+    "preferred": "विभेदक लगान",
+    "avoid_terms": [
+      "अलग लगान",
+      "भिन्न किराया"
+    ],
+    "context_notes": "Formal category of rent arising from differences in fertility, location or investment conditions.",
+    "category": "political_economy"
+  },
+  "absolute rent": {
+    "term": "absolute rent",
+    "preferred": "निरपेक्ष लगान",
+    "avoid_terms": [
+      "पूर्ण लगान",
+      "निश्चित किराया"
+    ],
+    "context_notes": "Use as the counterpart of differential rent in Marx's theory of ground rent.",
+    "category": "political_economy"
+  },
+  "landed property": {
+    "term": "landed property",
+    "preferred": "भू-सम्पत्ति",
+    "avoid_terms": [
+      "जमीन",
+      "भूमि का स्वामित्व"
+    ],
+    "context_notes": "Use for the social institution or form of property in land, not merely a plot of land.",
+    "category": "political_economy"
+  },
+  "monopoly": {
+    "term": "monopoly",
+    "preferred": "एकाधिकार",
+    "avoid_terms": [
+      "एकल व्यापार",
+      "इजारा"
+    ],
+    "context_notes": "Use the established modern political-economy term.",
+    "category": "political_economy"
+  },
+  "monopoly capital": {
+    "term": "monopoly capital",
+    "preferred": "एकाधिकार पूँजी",
+    "avoid_terms": [
+      "एकाधिकारी धन",
+      "एकल पूँजी"
+    ],
+    "context_notes": "Use for capital organized under monopoly conditions.",
+    "category": "political_economy"
+  },
+  "finance capital": {
+    "term": "finance capital",
+    "preferred": "वित्तीय पूँजी",
+    "avoid_terms": [
+      "वित्त पूँजी",
+      "पैसे की पूँजी"
+    ],
+    "context_notes": "Use for the Marxist-Leninist concept linking bank and industrial capital; do not reduce it to money capital.",
+    "category": "political_economy"
+  },
+  "imperialism": {
+    "term": "imperialism",
+    "preferred": "साम्राज्यवाद",
+    "avoid_terms": [
+      "साम्राज्य निर्माण",
+      "विस्तारवाद"
+    ],
+    "context_notes": "Retain the established political-economy term. 'विस्तारवाद' is not an equivalent in Lenin's technical analysis.",
+    "category": "political_economy"
+  },
+  "bourgeoisie": {
+    "term": "bourgeoisie",
+    "preferred": "बुर्जुआ वर्ग",
+    "avoid_terms": [
+      "अमीर लोग",
+      "पूँजीपति लोग",
+      "मध्यवर्ग"
+    ],
+    "context_notes": "Formal class term. Use 'पूँजीपति वर्ग' only where the source specifically means the capitalist class rather than bourgeois society broadly.",
+    "category": "class_analysis"
+  },
+  "petty bourgeoisie": {
+    "term": "petty bourgeoisie",
+    "preferred": "निम्न बुर्जुआ वर्ग",
+    "avoid_terms": [
+      "छोटे पूँजीपति",
+      "मध्यवर्ग"
+    ],
+    "context_notes": "For a social stratum between the bourgeoisie and proletariat; 'निम्नमध्यवर्ग' may be used only if the source is explicitly sociological rather than Marxist-theoretical.",
+    "category": "class_analysis"
+  },
+  "lumpenproletariat": {
+    "term": "lumpenproletariat",
+    "preferred": "लम्पट सर्वहारा",
+    "avoid_terms": [
+      "अपराधी वर्ग",
+      "गरीब सर्वहारा"
+    ],
+    "context_notes": "Keep the established term; do not turn it into a blanket moral description of poor people.",
+    "category": "class_analysis"
+  },
+  "class struggle": {
+    "term": "class struggle",
+    "preferred": "वर्ग संघर्ष",
+    "avoid_terms": [
+      "वर्गों का झगड़ा",
+      "सामाजिक संघर्ष"
+    ],
+    "context_notes": "Established Marxist term for conflict rooted in antagonistic class relations.",
+    "category": "class_analysis"
+  },
+  "class consciousness": {
+    "term": "class consciousness",
+    "preferred": "वर्ग-चेतना",
+    "avoid_terms": [
+      "वर्ग की समझ",
+      "सामाजिक जागरूकता"
+    ],
+    "context_notes": "Use the hyphenated formal term, especially in Leninist discussion of political consciousness.",
+    "category": "class_analysis"
+  },
+  "dictatorship of the proletariat": {
+    "term": "dictatorship of the proletariat",
+    "preferred": "सर्वहारा की तानाशाही",
+    "avoid_terms": [
+      "सर्वहारा शासन",
+      "मजदूर सरकार"
+    ],
+    "context_notes": "Established Marxist term. Do not soften or replace it with a generic description of government; explain it in a note if needed.",
+    "category": "politics"
+  },
+  "revolution": {
+    "term": "revolution",
+    "preferred": "क्रान्ति",
+    "avoid_terms": [
+      "बड़ा बदलाव",
+      "विद्रोह"
+    ],
+    "context_notes": "Keep distinct from a revolt, coup or reform unless the source uses those specific concepts.",
+    "category": "politics"
+  },
+  "reformism": {
+    "term": "reformism",
+    "preferred": "सुधारवाद",
+    "avoid_terms": [
+      "सुधार",
+      "उन्नति"
+    ],
+    "context_notes": "A political tendency; do not translate as a neutral individual reform.",
+    "category": "politics"
+  },
+  "revisionism": {
+    "term": "revisionism",
+    "preferred": "संशोधनवाद",
+    "avoid_terms": [
+      "सुधारवाद",
+      "पुनरीक्षण"
+    ],
+    "context_notes": "Use for the established Marxist political-theoretical term; it is not identical to reformism.",
+    "category": "politics"
+  },
+  "opportunism": {
+    "term": "opportunism",
+    "preferred": "अवसरवाद",
+    "avoid_terms": [
+      "मौकापरस्ती",
+      "व्यावहारिकता"
+    ],
+    "context_notes": "Use the formal political term; 'व्यावहारिकता' is not equivalent.",
+    "category": "politics"
+  },
+  "social democracy": {
+    "term": "social democracy",
+    "preferred": "सामाजिक जनवाद (Social Democracy)",
+    "avoid_terms": [
+      "समाजवादी लोकतंत्र",
+      "सामाजिक लोकतंत्र"
+    ],
+    "context_notes": "Use the historical Marxist party and movement term. Keep English on first occurrence where the period matters.",
+    "category": "politics"
+  },
+  "social democrat": {
+    "term": "social democrat",
+    "preferred": "सामाजिक जनवादी (Social Democrat)",
+    "avoid_terms": [
+      "सोशल डेमोक्रेट",
+      "समाजवादी लोकतंत्रवादी"
+    ],
+    "context_notes": "Use the established historical-political term, especially for Lenin-era parties and activists.",
+    "category": "politics"
+  },
+  "socialism": {
+    "term": "socialism",
+    "preferred": "समाजवाद",
+    "avoid_terms": [
+      "सामाजिकता",
+      "समाज कल्याण"
+    ],
+    "context_notes": "Established political-economic term; do not reduce it to welfare policy.",
+    "category": "politics"
+  },
+  "communism": {
+    "term": "communism",
+    "preferred": "साम्यवाद",
+    "avoid_terms": [
+      "सामूहिकतावाद",
+      "साझावाद"
+    ],
+    "context_notes": "Use the established term for the Marxist social formation and movement.",
+    "category": "politics"
+  },
+  "anarchism": {
+    "term": "anarchism",
+    "preferred": "अराजकतावाद",
+    "avoid_terms": [
+      "अराजकता",
+      "अव्यवस्था"
+    ],
+    "context_notes": "A political doctrine, not a synonym for disorder.",
+    "category": "politics"
   }
 }
