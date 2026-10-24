@@ -2,38 +2,38 @@
   {
     "id": "d4b07c073aef",
     "source": "The capitalist price mechanism fails to reflect the true social labor costs.",
-    "target": "पूंजीवादी मूल्य प्रणाली वास्तविक सामाजिक श्रम-लागत को दर्शाने में असमर्थ रहती है।",
+    "target": "पूंजीवादी कीमत क्रियाविधि (capitalist price mechanism) वास्तविक सामाजिक श्रम-लागत (social labor costs) को दर्शाने में असमर्थ रहती है।",
     "bad_literal": "पूंजीवादी कीमत तंत्र सच सामाजिक काम लागत दिखाने में असफल है।",
-    "category": "economics",
-    "notes": "Use 'मूल्य प्रणाली' for 'price mechanism' and active voice.",
-    "updated_at": "2026-10-24T05:42:11Z"
+    "category": "approved_studio",
+    "notes": "",
+    "updated_at": "2026-10-24T06:35:20Z"
   },
   {
     "id": "f6ee0cd1f1fb",
     "source": "Surplus value is extracted from the working class through uncompensated labor time.",
-    "target": "अवैतनिक श्रम-समय के जरिए मजदूर वर्ग से अधिशेष मूल्य का दोहन किया जाता है।",
+    "target": "मज़दूर वर्ग से बिना भुगतान किए गए श्रम-समय (unpaid labor time) के माध्यम से अधिशेष मूल्य (surplus value) निष्कर्षित किया जाता है।",
     "bad_literal": "अधिशेष मूल्य बिना मुआवजा काम समय के माध्यम से कामगार वर्ग से निकाला जाता है।",
-    "category": "economics",
-    "notes": "Always use 'अधिशेष मूल्य' and 'अवैतनिक श्रम-समय'.",
-    "updated_at": "2026-10-24T05:42:11Z"
+    "category": "approved_studio",
+    "notes": "",
+    "updated_at": "2026-10-24T07:00:28Z"
   },
   {
     "id": "4082911dd6e2",
     "source": "A transition to renewable energy requires a planned reallocation of labor resources.",
-    "target": "नवीकरणीय ऊर्जा की ओर बदलाव के लिए श्रम संसाधनों का सुनियोजित पुनर्वितरण आवश्यक है।",
+    "target": "नवीकरणीय ऊर्जा (renewable energy) की ओर बदलाव के लिए श्रम संसाधनों का सुनियोजित पुनर्वितरण आवश्यक है।",
     "bad_literal": "अक्षय ऊर्जा में संक्रमण के लिए श्रम संसाधनों के एक नियोजित पुनः आवंटन की आवश्यकता होती है।",
-    "category": "energy",
-    "notes": "Use 'नवीकरणीय ऊर्जा' and 'सुनियोजित पुनर्वितरण'.",
-    "updated_at": "2026-10-24T05:42:11Z"
+    "category": "approved_studio",
+    "notes": "",
+    "updated_at": "2026-10-24T07:04:19Z"
   },
   {
     "id": "fbd05bb69650",
     "source": "The development of productive forces inevitably comes into conflict with existing relations of production.",
-    "target": "जैसे-जैसे उत्पादन क्षमताएं विकसित होती हैं, उनका मौजूदा सामाजिक व आर्थिक व्यवस्था से टकराव होना तय है।",
+    "target": "उत्पादक बलों का विकास अनिवार्यतः विद्यमान उत्पादन-संबंधों के साथ द्वंद्व (या टकराव) पैदा करता है।",
     "bad_literal": "उत्पादक शक्तियों का विकास अनिवार्य रूप से उत्पादन के मौजूदा संबंधों के साथ संघर्ष में आता है।",
-    "category": "philosophy",
-    "notes": "Avoid calque English phrasing; use fluid natural Hindi cadence.",
-    "updated_at": "2026-10-24T05:42:11Z"
+    "category": "approved_studio",
+    "notes": "",
+    "updated_at": "2026-10-24T07:09:07Z"
   },
   {
     "id": "cbffad3feb55",
@@ -47,10 +47,856 @@
   {
     "id": "b42c3adb48a9",
     "source": "The rate of exploitation can be mathematically represented as the ratio of surplus labor to necessary labor.",
-    "target": "शोषण की दर को गणितीय रूप से अधिशेष श्रम और आवश्यक श्रम के अनुपात के रूप में दर्शाया जा सकता है।",
+    "target": "शोषण की दर (rate of exploitation) को गणितीय रूप से अधिशेष श्रम (surplus labor) और आवश्यक श्रम (necessary labor) के अनुपात में दर्शाया जा सकता है।",
     "bad_literal": "शोषण की दर अधिशेष श्रम से आवश्यक श्रम का अनुपात है।",
-    "category": "mathematics",
-    "notes": "Preserve mathematical terms accurately.",
-    "updated_at": "2026-10-24T05:42:11Z"
+    "category": "approved_studio",
+    "notes": "",
+    "updated_at": "2026-10-24T07:14:11Z"
+  },
+  {
+    "id": "15010eb57aac",
+    "source": "Present-day society is wholly based on the exploitation of the vast masses of the working class by a tiny minority of the population, the class of the landowners and that of the capitalists. It is a slave society, since the “free” workers, who all their life work for the capitalists, are “entitled” only to such means of subsistence as are essential for the maintenance of slaves who produce profit, for the safeguarding and perpetuation of capitalist slavery.",
+    "target": "वर्तमान समाज पूर्ण रूप से जनसंख्या की एक अत्यंत नगण्य अल्पसंख्यक द्वारा, भूस्वामियों और पूँजीपतियों द्वारा, मज़दूर वर्ग के व्यापक अवाम के शोषण पर आधारित है। यह एक ग़ुलाम समाज है, क्योंकि \"स्वतंत्र\" मज़दूर जो जीवन भर पूँजीपजियों के लिए काम करते हैं,  उन्हें केवल उतना ही मिलता है जितना उनके जीवित रहने के लिए ज़रूरी है, ठीक उतना ही, जितना मुनाफ़ा पैदा करने वाले गुलामों को ज़िंदा रखने के लिए चाहिए होता है, ताकि पूँजीवादी गुलामी का यह तंत्र सुरक्षित रहे और आगे भी चलता रहे।",
+    "bad_literal": "आज का समाज पूरी तरह से एक बहुत छोटे अल्पसंख्यक वर्ग—यानी ज़मींदारों और पूँजीपतियों के वर्ग—द्वारा मज़दूर वर्ग के विशाल जनसमूह के शोषण पर टिका है। यह एक 'गुलाम समाज' है, क्योंकि जो 'आज़ाद' मज़दूर जीवन भर पूँजीपतियों के लिए काम करते हैं, उन्हें केवल उतना ही मिलता है जितना उनके जीवित रहने के लिए ज़रूरी है—ठीक उतना ही, जितना मुनाफ़ा पैदा करने वाले गुलामों को ज़िंदा रखने के लिए चाहिए होता है, ताकि पूँजीवादी गुलामी का यह तंत्र सुरक्षित रहे और आगे भी चलता रहे।",
+    "category": "approved_studio",
+    "notes": "",
+    "updated_at": "2026-10-24T06:21:40Z"
+  },
+  {
+    "id": "8176978e7bd8",
+    "source": "The revolutionary proletariat will succeed in making religion a really private affair, so far as the state is concerned.",
+    "target": "क्रान्तिकारी सर्वहारा, जहाँ तक राज्य का संबंध है, धर्म को वास्तव में एक व्यक्तिगत मामला बनाने में सफल होगा।",
+    "bad_literal": null,
+    "category": "approved_studio",
+    "notes": "",
+    "updated_at": "2026-10-24T07:22:14Z"
+  },
+  {
+    "id": "0636f2ccae6f",
+    "source": "\"Freedom of criticism\" is undoubtedly the most fashionable slogan at the present time, and the one most frequently employed in the controversies between socialists and democrats in all countries.",
+    "target": "'आलोचना की स्वतंत्रता' निस्संदेह मौजूदा समय का सबसे फैशनेबल नारा है। यह सभी देशों और समाजवादियों और जनवादियों के बीच चल रहे विवादों में सर्वाधिक इस्तेमाल किया जाने वाला मुद्दा है।",
+    "bad_literal": "आलोचना की आजादी बिना शक सबसे फैशनेबल नारा है जो समाजवादियों के बीच इस्तेमाल होता है।",
+    "category": "party_and_revolution",
+    "notes": "Use 'आलोचना की स्वतंत्रता' for 'freedom of criticism'; avoid casual 'आजादी'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "84d6448039d2",
+    "source": "At first sight, nothing would appear to be more strange than the solemn appeals to freedom of criticism made by one of the parties to the dispute.",
+    "target": "विवाद में शामिल पार्टियों में से कोई एक अगर आलोचना की स्वतंत्रता के लिए गंभीर अपील करे तो पहली नजर में इससे ज्यादा विचित्र बात कोई और नजर नहीं आएगी।",
+    "bad_literal": "पहली नजर में विवाद की किसी पार्टी द्वारा आलोचना की आजादी की गंभीर अपील से अजीब कुछ नहीं लगेगा।",
+    "category": "party_and_revolution",
+    "notes": "Natural Hindi sentence construction with condition 'अगर... तो'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "64859d8e8705",
+    "source": "Have voices been raised in the advanced parties against the constitutional law of the majority of European countries which guarantees freedom to science and scientific investigation?",
+    "target": "बहुतेरे यूरोपीय देशों के संवैधानिक कानून, विज्ञान और वैज्ञानिक अन्वेषणों के लिए स्वतंत्रता की गारंटी करते हैं। क्या इन कानूनों के खिलाफ इन देशों की अग्रणी पार्टियों के भीतर आवाज उठाई गई है?",
+    "bad_literal": "क्या उन यूरोपीय देशों के संविधान के खिलाफ आवाज उठाई गई है जो विज्ञान को आजादी देते हैं?",
+    "category": "party_and_revolution",
+    "notes": "Split long periodic English questions into an informative premise and a clear query in Hindi.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "508399c46b16",
+    "source": "\"Something must be wrong here,\" will be the comment of the onlooker who has heard this fashionable slogan repeated at every turn but has not yet penetrated the essence of the disagreement among the disputants.",
+    "target": "'यहां कुछ न कुछ गलत निश्चित रूप से है।' यही किसी भी उस दर्शक की टिप्पणी होगी, जिसने आलोचना की स्वतंत्रता के इस फैशनेबल नारे को सुना होगा लेकिन विवादों के सारतत्व को नहीं समझा होगा।",
+    "bad_literal": "यहाँ कुछ गलत होना चाहिए, यह उस देखने वाले की टिप्पणी होगी जिसने यह नारा सुना है।",
+    "category": "party_and_revolution",
+    "notes": "Use 'सारतत्व' for 'essence of the disagreement'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "fa91b40532d3",
+    "source": "In fact, it is no secret for anyone that two trends have taken form in present-day international Social-Democracy.",
+    "target": "वास्तव में यह किसी के लिए रहस्य नहीं है कि दो प्रवृत्तियों ने मौजूदा अंतर्राष्ट्रीय सामाजिक जनवाद में अपना रूप ले लिया है।",
+    "bad_literal": "सच में किसी के लिए गुप्त नहीं है कि आज के सोशल डेमोक्रेसी में दो धाराएं बन गई हैं।",
+    "category": "party_and_revolution",
+    "notes": "Use 'सामाजिक जनवाद' for 'Social-Democracy'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "a77d666f0e56",
+    "source": "The conflict between these trends now flares up in a bright flame and now dies down and smoulders under the ashes of imposing \"truce resolutions\".",
+    "target": "इन प्रवृत्तियों के बीच का संघर्ष कभी भड़क उठता है और कभी 'संघर्ष-विराम प्रस्तावों' की राख के नीचे सुलगता रहता है।",
+    "bad_literal": "इन धाराओं का झगड़ा कभी आग बनता है और कभी शांति प्रस्तावों की राख में सुलगता है।",
+    "category": "party_and_revolution",
+    "notes": "Metaphorical balance: 'राख के नीचे सुलगना' for 'smoulders under the ashes'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "6002ab1a432a",
+    "source": "The essence of the \"new\" trend, which adopts a \"critical\" attitude towards \"obsolete dogmatic\" Marxism, has been clearly enough presented by Bernstein and demonstrated by Millerand.",
+    "target": "'नई' प्रवृत्ति का सारतत्व 'पुरातन कट्टरपंथी' मार्क्सवाद के प्रति आलोचनात्मक रुख अख्तियार करना है, जिसे बर्नस्टीन ने पेश किया और मिलेरां ने व्यवहार में प्रदर्शित किया।",
+    "bad_literal": "नई धारा का सार जो पुराने मार्क्सवाद पर आलोचनात्मक रुख लेती है बर्नस्टीन द्वारा दिखाया गया है।",
+    "category": "party_and_revolution",
+    "notes": "Formal terminology: 'सारतत्व' and 'रुख अख्तियार करना'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "05e02a54035d",
+    "source": "Social-Democracy must change from a party of social revolution into a democratic party of social reforms.",
+    "target": "सामाजिक जनवाद को सामाजिक क्रांति के लिए समर्पित पार्टी से बदलकर सामाजिक सुधारों की जनवादी पार्टी बन जाना चाहिए।",
+    "bad_literal": "सोशल डेमोक्रेसी को सामाजिक क्रांति की पार्टी से सामाजिक सुधार की पार्टी में बदलना चाहिए।",
+    "category": "party_and_revolution",
+    "notes": "Editorial rule: Keep 'सामाजिक क्रांति' and 'सामाजिक सुधार' strictly distinct.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "1a454ff78867",
+    "source": "Bernstein has surrounded this political demand with a whole battery of well-attuned \"new\" arguments and reasonings.",
+    "target": "बर्नस्टीन इस राजनीतिक मांग को सुव्यवस्थित 'नए' तर्कों और विचारों की पूरी श्रृंखला से लैस करते हैं।",
+    "bad_literal": "बर्नस्टीन ने इस राजनीतिक मांग को नए तर्कों की बैटरी से घेर लिया है।",
+    "category": "party_and_revolution",
+    "notes": "Avoid literal calque 'तर्कों की बैटरी'; use 'तर्कों की पूरी श्रृंखला से लैस करना'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "9ddca2b0f4ff",
+    "source": "Denied was the possibility of putting socialism on a scientific basis and of demonstrating its necessity and inevitability from the point of view of the materialist conception of history.",
+    "target": "समाजवाद को वैज्ञानिक आधार देने और इतिहास के भौतिकवादी दृष्टिकोण से उसकी आवश्यकता व अनिवार्यता सिद्ध करने की संभावना से ही इनकार कर दिया गया।",
+    "bad_literal": "समाजवाद को विज्ञान पर रखने और भौतिकवादी इतिहास से इसकी जरूरत दिखाने से मना किया गया।",
+    "category": "historical_materialism",
+    "notes": "Use 'इतिहास का भौतिकवादी दृष्टिकोण' (materialist conception of history).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "89b10665d02f",
+    "source": "Denied was the fact of growing impoverishment, the process of proletarianisation, and the intensification of capitalist contradictions.",
+    "target": "बढ़ती कंगाली के तथ्य, सर्वहाराकरण की प्रक्रिया और पूंजीवादी अन्तर्विरोधों के तीव्र होने की वास्तविकता को नकार दिया गया।",
+    "bad_literal": "गरीबी बढ़ने, सर्वहारा बनने और पूंजीवादी झगड़ों के सच को मना किया गया।",
+    "category": "economics",
+    "notes": "Editorial rule: Use 'सर्वहाराकरण' (proletarianisation) and 'पूंजीवादी अन्तर्विरोध' (capitalist contradictions).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "bdf7f57bca61",
+    "source": "The very concept \"ultimate aim\" was declared to be unsound, and the idea of the dictatorship of the proletariat was completely rejected.",
+    "target": "'अंतिम लक्ष्य' की अवधारणा को ही निरर्थक घोषित कर दिया गया और सर्वहारा अधिनायकत्व के विचार को पूरी तरह खारिज कर दिया गया।",
+    "bad_literal": "आखिरी मकसद के विचार को बेकार कहा गया और सर्वहारा की तानाशाही को हटा दिया गया।",
+    "category": "party_and_revolution",
+    "notes": "Editorial rule: Use 'सर्वहारा अधिनायकत्व' for 'dictatorship of the proletariat'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "be3e525f8733",
+    "source": "Denied was the antithesis in principle between liberalism and socialism. Denied was the theory of the class struggle, on the alleged ground that it could not be applied to a strictly democratic society.",
+    "target": "उदारतावाद और समाजवाद के बीच के बुनियादी सैद्धांतिक भेद को नकार दिया गया। वर्ग-संघर्ष के सिद्धांत को इस तथाकथित आधार पर खारिज किया गया कि इसे विशुद्ध लोकतांत्रिक समाज पर लागू नहीं किया जा सकता।",
+    "bad_literal": "उदारवाद और समाजवाद के विरोध को नकारा गया और वर्ग संघर्ष को अलोकतांत्रिक माना गया।",
+    "category": "party_and_revolution",
+    "notes": "Use 'वर्ग-संघर्ष' (class struggle) and 'बुनियादी सैद्धांतिक भेद'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "6ac2fc90dbe9",
+    "source": "Thus, the demand for a decisive turn from revolutionary Social-Democracy to bourgeois social-reformism was accompanied by a no less decisive turn towards bourgeois criticism of all the fundamental ideas of Marxism.",
+    "target": "इस प्रकार, क्रांतिकारी सामाजिक जनवाद से बुर्जुआ सामाजिक-सुधारवाद की ओर निर्णायक मोड़ की मांग के साथ-साथ मार्क्सवाद के सभी बुनियादी विचारों की बुर्जुआ आलोचना की ओर भी उतना ही निर्णायक मोड़ आया।",
+    "bad_literal": "इसलिए क्रांतिकारी समाजवाद से बुर्जुआ सुधार की मांग मार्क्सवाद की आलोचना के साथ आई।",
+    "category": "party_and_revolution",
+    "notes": "Editorial rule: 'बुर्जुआ सामाजिक-सुधारवाद' vs 'क्रांतिकारी सामाजिक जनवाद'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "9bf31d31d19f",
+    "source": "If Social-Democracy, in essence, is merely a party of reform, then not only has a socialist the right to join a bourgeois cabinet, but he must always strive to do so.",
+    "target": "यदि सामाजिक जनवाद मूलतः केवल सुधारों की पार्टी है, तो किसी समाजवादी को न केवल बुर्जुआ मंत्रिमंडल में शामिल होने का अधिकार है, बल्कि उसे हमेशा ऐसा करने का प्रयास करना चाहिए।",
+    "bad_literal": "अगर सोशल डेमोक्रेसी सिर्फ सुधार की पार्टी है तो समाजवादी को सरकार में जाना चाहिए।",
+    "category": "party_and_revolution",
+    "notes": "Use 'बुर्जुआ मंत्रिमंडल' for 'bourgeois cabinet'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "f16c7bd9e6c7",
+    "source": "Why should he not remain in the cabinet even after the shooting-down of workers by gendarmes has exposed the real nature of the democratic collaboration of classes?",
+    "target": "उसे मंत्रिमंडल में तब भी क्यों नहीं बने रहना चाहिए जब पुलिस द्वारा श्रमिकों पर गोलीबारी ने वर्गों के लोकतांत्रिक सहयोग के वास्तविक चरित्र को उजागर कर दिया हो?",
+    "bad_literal": "उसे कैबिनेट में क्यों नहीं रहना चाहिए जब पुलिस ने मजदूरों को गोली मार दी?",
+    "category": "party_and_revolution",
+    "notes": "Use 'वर्गों का सहयोग' (collaboration of classes).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "d5fa20a587e4",
+    "source": "He who does not deliberately close his eyes cannot fail to see that the new \"critical\" trend in socialism is nothing more and nothing less than a new variety of opportunism.",
+    "target": "जो जानबूझकर अपनी आंखें बंद नहीं कर लेता, वह साफ-साफ देख सकता है कि समाजवाद में यह नई 'आलोचनात्मक' प्रवृत्ति अवसरवाद की एक नई किस्म से न तो कुछ कम है और न अधिक।",
+    "bad_literal": "जो आंख बंद नहीं करता वह देख सकता है कि समाजवाद में आलोचना अवसरवाद का नया रूप है।",
+    "category": "political_tendencies",
+    "notes": "Editorial rule: Use 'अवसरवाद' for 'opportunism'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "3ae176f98c46",
+    "source": "And if we judge people, not by the glittering clothes they deck themselves in, not by the imposing titles they give themselves, but by their actions, it will be clear that \"freedom of criticism\" means' freedom for an opportunist trend in Social-Democracy.",
+    "target": "और यदि हम लोगों का मूल्यांकन उनके दिखावटी कपड़ों या भव्य उपाधियों से नहीं, बल्कि उनके कर्मों से करें, तो स्पष्ट हो जाएगा कि 'आलोचना की स्वतंत्रता' का अर्थ सामाजिक जनवाद में अवसरवादी प्रवृत्ति की स्वतंत्रता है।",
+    "bad_literal": "अगर हम लोगों को उनके कपड़ों और नाम से नहीं काम से देखें तो आलोचना की आजादी अवसरवाद की आजादी है।",
+    "category": "party_and_revolution",
+    "notes": "Preserve rhetorical balance: 'दिखावटी कपड़ों या भव्य उपाधियों'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "010a64de1d3d",
+    "source": "\"Freedom\" is a grand word, but under the banner of freedom for industry the most predatory wars were waged; under the banner of freedom of labour, the working people were robbed.",
+    "target": "'स्वतंत्रता' एक महान शब्द है, लेकिन उद्योग की स्वतंत्रता के बैनर तले सर्वाधिक लुटेरे युद्ध लड़े गए; श्रम की स्वतंत्रता के बैनर तले मेहनतकश जनता को लूटा गया।",
+    "bad_literal": "आजादी एक बड़ा शब्द है लेकिन उद्योग की आजादी में युद्ध लड़े गए और काम की आजादी में मजदूर लूटे गए।",
+    "category": "philosophy",
+    "notes": "Distinguish 'श्रम की स्वतंत्रता' from 'मेहनतकश जनता'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "0bce7b35c117",
+    "source": "Those who are really convinced that they have made progress in science would not demand freedom for the new views to continue side by side with the old, but the substitution of the new views for the old.",
+    "target": "जिन लोगों को सचमुच विश्वास है कि उन्होंने विज्ञान को आगे बढ़ाया है, वे पुराने विचारों के साथ नए विचारों के बने रहने की स्वतंत्रता नहीं मांगेंगे, बल्कि पुराने की जगह नए विचारों की स्थापना की मांग करेंगे।",
+    "bad_literal": "जो विज्ञान में तरक्की मानते हैं वे पुराने के साथ नया नहीं मांगेंगे बल्कि नया लाएंगे।",
+    "category": "philosophy",
+    "notes": "Precision: 'पुराने की जगह नए विचारों की स्थापना'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "4ce88cffc544",
+    "source": "We are marching in a compact group along a precipitous and difficult path, firmly holding each other by the hand.",
+    "target": "हम एक-दूसरे का हाथ मजबूती से थामे हुए, एक दुर्गम और कठिन रास्ते पर एक सुगठित समूह के रूप में आगे बढ़ रहे हैं।",
+    "bad_literal": "हम एक दूसरे का हाथ पकड़कर कठिन रास्ते पर एक ग्रुप में चल रहे हैं।",
+    "category": "party_and_revolution",
+    "notes": "Lenin's famous marsh passage: 'सुगठित समूह' for 'compact group'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "9f65ca5df1a0",
+    "source": "We are surrounded on all sides by enemies, and we have to advance almost constantly under their fire.",
+    "target": "हम चारों तरफ से दुश्मनों से घिरे हुए हैं, और हमें लगभग लगातार उनकी गोलीबारी के साए में आगे बढ़ना है।",
+    "bad_literal": "हम चारों ओर दुश्मनों से घिरे हैं और हमें उनकी आग में आगे बढ़ना है।",
+    "category": "party_and_revolution",
+    "notes": "Cadence: 'गोलीबारी के साए में आगे बढ़ना'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "3e2d7121efe4",
+    "source": "We have combined, by a freely adopted decision, for the purpose of fighting the enemy, and not of stumbling into the neighbouring marsh.",
+    "target": "हम अपनी स्वतंत्र इच्छा से लिए गए निर्णय के तहत एकजुट हुए हैं ताकि दुश्मन से मुकाबला कर सकें, न कि बगल के दलदल में फिसलकर जा गिरें।",
+    "bad_literal": "हमने दुश्मन से लड़ने का फैसला किया है पास के दलदल में गिरने का नहीं।",
+    "category": "party_and_revolution",
+    "notes": "Metaphor: 'बगल के दलदल में फिसलना' for 'stumbling into the neighbouring marsh'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "56618d7ee6fb",
+    "source": "And now some among us begin to cry out: Let us go into the marsh! And when we begin to shame them, they retort: What backward people you are!",
+    "target": "और अब हममें से कुछ लोग चिल्लाने लगे हैं: चलो दलदल में चलते हैं! और जब हम उन्हें शर्मसार करते हैं, तो वे पलटकर कहते हैं: तुम कितने पिछड़े लोग हो!",
+    "bad_literal": "अब कुछ लोग चिल्लाते हैं दलदल में चलो और जब हम टोकते हैं तो कहते हैं तुम पिछड़े हो!",
+    "category": "party_and_revolution",
+    "notes": "Vivid dialogue translation retaining Lenin's polemical bite.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "16dc77a1d957",
+    "source": "In fact, we think that the marsh is your proper place, and we are prepared to render you every assistance to get there.",
+    "target": "वास्तव में, हमारा मानना है कि वह दलदल ही आपकी सही जगह है, और हम आपको वहां पहुंचाने के लिए हर संभव सहायता देने को तैयार हैं।",
+    "bad_literal": "सच में हम सोचते हैं दलदल आपकी जगह है और हम वहां जाने में मदद करेंगे।",
+    "category": "party_and_revolution",
+    "notes": "Satirical register: 'हर संभव सहायता देने को तैयार हैं'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "19879bd3e679",
+    "source": "Only let go of our hands, don't clutch at us and don't besmirch the grand word freedom, for we too are \"free\" to go where we please, free to fight not only against the marsh, but also against those who are turning towards the marsh!",
+    "target": "बस हमारा हाथ छोड़ दीजिए, हमें मत पकड़िए और स्वतंत्रता जैसे महान शब्द को कलंकित मत कीजिए, क्योंकि हम भी वहां जाने के लिए 'स्वतंत्र' हैं जहां हम चाहें—न केवल दलदल के खिलाफ लड़ने के लिए, बल्कि उनकी ओर भी मुड़ने वालों के खिलाफ लड़ने के लिए जो दलदल का रुख कर रहे हैं!",
+    "bad_literal": "सिर्फ हमारा हाथ छोड़ो, हमें मत पकड़ो और आजादी शब्द को गंदा मत करो क्योंकि हम भी दलदल से लड़ने को आजाद हैं!",
+    "category": "party_and_revolution",
+    "notes": "Climactic rhetorical sentence of Section 1.1.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "04e73ad22a88",
+    "source": "The enormous growth of industry and the remarkably rapid concentration of production in ever-larger enterprises are one of the most characteristic features of capitalism.",
+    "target": "उद्योग का भारी विस्तार और लगातार बड़े होते उद्यमों में उत्पादन का अत्यधिक तीव्र संकेंद्रण पूंजीवाद की सबसे विशिष्ट विशेषताओं में से एक है।",
+    "bad_literal": "उद्योग की बड़ी वृद्धि और बड़े उद्यमों में उत्पादन का तेज जमाव पूंजीवाद का लक्षण है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'उत्पादन का संकेंद्रण' for 'concentration of production'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "8fc027556717",
+    "source": "Concentration of production, however, is much more intense than the concentration of workers, since labour in the large enterprises is much more productive.",
+    "target": "उत्पादन का संकेंद्रण श्रमिकों के संकेंद्रण की तुलना में कहीं अधिक तीव्र होता है, क्योंकि बड़े उद्यमों में श्रम कहीं अधिक उत्पादक होता है।",
+    "bad_literal": "उत्पादन का जमाव मजदूरों के जमाव से ज्यादा है क्योंकि बड़े कारखानों में काम ज्यादा उत्पादक है।",
+    "category": "imperialism_and_capital",
+    "notes": "Contrast: 'उत्पादन का संकेंद्रण' vs 'श्रमिकों का संकेंद्रण'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "e4bc7c1854e6",
+    "source": "Tens of thousands of huge enterprises are everything; millions of small ones are nothing.",
+    "target": "हजारों विशाल उद्यम ही सब कुछ हैं; लाखों छोटे उद्यमों का कोई अस्तित्व नहीं रह जाता।",
+    "bad_literal": "दस हजार बड़े उद्यम सब कुछ हैं, लाखों छोटे कुछ नहीं हैं।",
+    "category": "imperialism_and_capital",
+    "notes": "Epigrammatic formulation.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "27842a4d2def",
+    "source": "At a certain stage of its development, concentration, by itself, leads directly to monopoly.",
+    "target": "अपने विकास के एक निश्चित चरण में संकेंद्रण स्वतः ही सीधे एकाधिकार की ओर ले जाता है।",
+    "bad_literal": "अपने विकास के एक स्तर पर जमाव सीधे मोनोपॉली की तरफ जाता है।",
+    "category": "imperialism_and_capital",
+    "notes": "Core thesis of Imperialism: 'संकेंद्रण स्वतः ही एकाधिकार की ओर ले जाता है'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "43878e53e2cb",
+    "source": "For a score or so of gigantic enterprises can easily arrive at an agreement, and on the other hand, the hindrance to competition, the tendency towards monopoly, arises from the huge size of the enterprises.",
+    "target": "क्योंकि लगभग दो दर्जन विशाल उद्यम आसानी से किसी समझौते पर पहुंच सकते हैं, और दूसरी ओर, उद्यमों का विशाल आकार ही प्रतिस्पर्धा में बाधा और एकाधिकार की प्रवृत्ति को जन्म देता है।",
+    "bad_literal": "क्योंकि बीस बड़े उद्यम आसानी से समझौता कर सकते हैं और प्रतिस्पर्धा रुकने से एकाधिकार आता है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'एकाधिकार की प्रवृत्ति' (tendency towards monopoly).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "2da89996a541",
+    "source": "This transformation of competition into monopoly is one of the most important—if not the most important—phenomena of modern capitalist economy.",
+    "target": "प्रतिस्पर्धा का एकाधिकार में यह रूपांतरण आधुनिक पूंजीवादी अर्थव्यवस्था की सबसे महत्वपूर्ण—यदि सर्वाधिक महत्वपूर्ण नहीं तो—परिघटनाओं में से एक है।",
+    "bad_literal": "कंपटीशन का मोनोपॉली में बदलना आधुनिक पूंजीवादी अर्थव्यवस्था की सबसे बड़ी घटना है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'प्रतिस्पर्धा का एकाधिकार में रूपांतरण'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "c6dc68e4d1b4",
+    "source": "The rise of monopolies, as the result of the concentration of production, is a general and fundamental law of the present stage of development of capitalism.",
+    "target": "उत्पादन के संकेंद्रण के परिणामस्वरूप एकाधिकारों का उदय पूंजीवाद के विकास के वर्तमान चरण का एक सार्वभौमिक और बुनियादी नियम है।",
+    "bad_literal": "उत्पादन के जमाव से मोनोपॉली का उठना पूंजीवाद के विकास का बुनियादी नियम है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'सार्वभौमिक और बुनियादी नियम' (general and fundamental law).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "c78b73007248",
+    "source": "Monopoly is the exact opposite of free competition, but we have seen the latter being transformed into monopoly before our very eyes.",
+    "target": "एकाधिकार मुक्त प्रतिस्पर्धा का ठीक विलोम है, लेकिन हमने अपनी आंखों के सामने मुक्त प्रतिस्पर्धा को एकाधिकार में बदलते देखा है।",
+    "bad_literal": "एकाधिकार खुली प्रतियोगिता का उल्टा है लेकिन हमने प्रतियोगिता को एकाधिकार बनते देखा है।",
+    "category": "imperialism_and_capital",
+    "notes": "Dialectical transformation: 'मुक्त प्रतिस्पर्धा' vs 'एकाधिकार'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "4a95a7ec8b89",
+    "source": "Monopoly produces concentration of production, creating large-scale industry and crowding out small industry, replacing big industry by still bigger industry.",
+    "target": "एकाधिकार उत्पादन के संकेंद्रण को जन्म देता है, बड़े पैमाने के उद्योग का निर्माण करता है और छोटे उद्योग को बाहर धकेल देता है, बड़े उद्योग की जगह और भी बड़े उद्योग को स्थापित करता है।",
+    "bad_literal": "मोनोपॉली उत्पादन जमाती है, बड़ा उद्योग बनाती है और छोटे उद्योग को हटा देती है।",
+    "category": "imperialism_and_capital",
+    "notes": "Fluid active verbs in Hindi.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "37fee5fd75a4",
+    "source": "Monopoly leads to such concentration of production and capital that it has given rise to a financial oligarchy.",
+    "target": "एकाधिकार उत्पादन और पूंजी के ऐसे संकेंद्रण को जन्म देता है जिसने वित्तीय अल्पतंत्र को पैदा किया है।",
+    "bad_literal": "एकाधिकार उत्पादन और पूंजी का ऐसा जमाव करता है जिससे वित्तीय कुलीनतंत्र बनता है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'वित्तीय अल्पतंत्र' (financial oligarchy).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "819492d92b72",
+    "source": "Finance capital, concentrated in a few hands and exercising a virtual monopoly, exacts enormous and ever-increasing profits from the whole of society.",
+    "target": "चंद हाथों में संकेंद्रित और लगभग पूर्ण एकाधिकार का प्रयोग करने वाली वित्तीय पूंजी पूरे समाज से भारी और लगातार बढ़ते मुनाफे निचोड़ती है।",
+    "bad_literal": "कुछ हाथों में केंद्रित फाइनेंस कैपिटल पूरे समाज से भारी मुनाफा लेती है।",
+    "category": "imperialism_and_capital",
+    "notes": "Editorial rule: 'वित्तीय पूंजी' (finance capital) and 'मुनाफा' (profits).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "a4fe9cdec819",
+    "source": "The export of capital, one of the most essential economic bases of imperialism, still further isolates the rentier from production.",
+    "target": "पूंजी का निर्यात, जो साम्राज्यवाद के सबसे आवश्यक आर्थिक आधारों में से एक है, सूदखोर वर्ग को उत्पादन से और भी अधिक अलग-थलग कर देता है।",
+    "bad_literal": "पूंजी का एक्सपोर्ट साम्राज्यवाद का आर्थिक आधार है जो सूदखोर को अलग करता है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'पूंजी का निर्यात' (export of capital) and 'सूदखोर वर्ग' (rentier).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "bbb68cb3e05d",
+    "source": "The division of the world between international cartels and trusts is an established fact of modern capitalism.",
+    "target": "अंतर्राष्ट्रीय कार्टेलों और ट्रस्टों के बीच दुनिया का बंटवारा आधुनिक पूंजीवाद का एक स्थापित तथ्य है।",
+    "bad_literal": "अंतर्राष्ट्रीय कार्टेल और ट्रस्ट के बीच दुनिया का विभाजन आधुनिक पूंजीवाद का सच है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'दुनिया का बंटवारा' and transliterate 'कार्टेलों और ट्रस्टों'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "1b9c1ba44301",
+    "source": "Imperialism is the epoch of finance capital and of monopolies, which introduce everywhere the striving for domination, not for freedom.",
+    "target": "साम्राज्यवाद वित्तीय पूंजी और एकाधिकारों का युग है, जो हर जगह स्वतंत्रता के बजाय प्रभुत्व स्थापित करने की ललक पैदा करता है।",
+    "bad_literal": "साम्राज्यवाद वित्तीय पूंजी और एकाधिकार का युग है जो आजादी के बदले प्रभुत्व लाता है।",
+    "category": "imperialism_and_capital",
+    "notes": "Classic formulation: 'स्वतंत्रता के बजाय प्रभुत्व स्थापित करने की ललक'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "8e7d8ba7c4af",
+    "source": "The uneven and spasmodic development of individual enterprises, individual branches of industry and individual countries is inevitable under the capitalist system.",
+    "target": "पूंजीवादी व्यवस्था के तहत अलग-अलग उद्यमों, उद्योग की अलग-अलग शाखाओं और अलग-अलग देशों का असमान और असंतुलित विकास अपरिहार्य है।",
+    "bad_literal": "पूंजीवादी प्रणाली में उद्यमों और देशों का असमान विकास जरूरी होता है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'असमान और असंतुलित विकास' (uneven and spasmodic development).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "78abf7e0eeb7",
+    "source": "Imperialism is capitalism in that stage of development in which the dominance of monopolies and finance capital has established itself.",
+    "target": "साम्राज्यवाद पूंजीवाद के विकास का वह चरण है जिसमें एकाधिकारों और वित्तीय पूंजी का वर्चस्व स्थापित हो चुका होता है।",
+    "bad_literal": "साम्राज्यवाद पूंजीवाद का वह स्तर है जहां एकाधिकार और वित्तीय पूंजी का राज होता है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'वर्चस्व स्थापित होना' for 'dominance has established itself'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "e43a62cbaaf1",
+    "source": "The non-economic superstructure which grows up on the basis of finance capital, its politics and its ideology, accentuates the striving for colonial conquest.",
+    "target": "वित्तीय पूंजी के आधार पर विकसित होने वाली गैर-आर्थिक अधिरचना, उसकी राजनीति और उसकी विचारधारा, औपनिवेशिक विजय की ललक को और तेज कर देती है।",
+    "bad_literal": "फाइनेंस कैपिटल पर बनने वाला गैर-आर्थिक ढांचा औपनिवेशिक जीत की चाह बढ़ाता है।",
+    "category": "historical_materialism",
+    "notes": "Editorial rule: Use 'गैर-आर्थिक अधिरचना' (non-economic superstructure).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "364722afae3b",
+    "source": "Monopolies, oligarchy, the striving for domination of the weak by the strong—all these have given birth to those distinctive characteristics of imperialism which compel us to define it as parasitic or decaying capitalism.",
+    "target": "एकाधिकार, अल्पतंत्र, शक्तिशाली द्वारा कमजोर पर प्रभुत्व कायम करने की ललक—इन सभी ने साम्राज्यवाद की उन विशिष्ट विशेषताओं को जन्म दिया है जो हमें इसे परजीवी या मरणासन्न पूंजीवाद के रूप में परिभाषित करने के लिए बाध्य करती हैं।",
+    "bad_literal": "एकाधिकार और कुलीनतंत्र ने साम्राज्यवाद के वे लक्षण पैदा किए जो इसे परजीवी पूंजीवाद बनाते हैं।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'परजीवी या मरणासन्न पूंजीवाद' (parasitic or decaying capitalism).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "b1240e36bfa1",
+    "source": "The rentier state is a state of parasitic, decaying capitalism, and this circumstance cannot fail to influence all the socio-political conditions of the countries concerned.",
+    "target": "सूदखोर राज्य परजीवी, मरणासन्न पूंजीवाद का राज्य होता है, और यह परिस्थिति संबंधित देशों की सभी सामाजिक-राजनीतिक दशाओं को प्रभावित किए बिना नहीं रह सकती।",
+    "bad_literal": "सूदखोर राज्य परजीवी पूंजीवाद का राज्य है और यह सभी राजनीतिक स्थितियों को प्रभावित करता है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'सूदखोर राज्य' (rentier state).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "89445a2f533e",
+    "source": "From all that has been said in this book on the economic essence of imperialism, it follows that we must define it as capitalism in transition, or, more precisely, as dying capitalism.",
+    "target": "साम्राज्यवाद के आर्थिक सारतत्व के विषय में इस पुस्तक में जो कुछ भी कहा गया है, उससे यह निष्कर्ष निकलता है कि हमें इसे संक्रमणकालीन पूंजीवाद, या अधिक सटीक रूप में, मरणासन्न पूंजीवाद के रूप में परिभाषित करना चाहिए।",
+    "bad_literal": "इस किताब में साम्राज्यवाद के बारे में जो कहा गया है उससे यह मरणासन्न पूंजीवाद कहलाता है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'संक्रमणकालीन पूंजीवाद' (capitalism in transition) vs 'मरणासन्न पूंजीवाद' (dying capitalism).",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "5b277e67c342",
+    "source": "Private property based on the labour of the small owner, free competition, democracy, all the slogans with which the capitalists and their press deceive the workers and the peasants are things of the distant past.",
+    "target": "छोटे मालिक के श्रम पर आधारित निजी संपत्ति, मुक्त प्रतिस्पर्धा, लोकतंत्र—वे सभी नारे जिनके जरिए पूंजीपति और उनका प्रेस मजदूरों और किसानों को धोखा देते हैं—अब सुदूर अतीत की बातें बन चुकी हैं।",
+    "bad_literal": "छोटे मालिक की निजी संपत्ति, खुली प्रतियोगिता और लोकतंत्र के नारे अब पुरानी बात हैं।",
+    "category": "historical_materialism",
+    "notes": "Preserve cadenced relative clause: 'सुदूर अतीत की बातें बन चुकी हैं'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "85759833da1e",
+    "source": "Imperialism is the eve of the social revolution of the proletariat. This has been confirmed since 1917 on a world-wide scale.",
+    "target": "साम्राज्यवाद सर्वहारा की सामाजिक क्रांति की पूर्ववेला है। 1917 के बाद से विश्वव्यापी पैमाने पर इसकी पुष्टि हो चुकी है।",
+    "bad_literal": "साम्राज्यवाद सर्वहारा की सामाजिक क्रांति की शाम है जिसकी पुष्टि 1917 से हुई है।",
+    "category": "party_and_revolution",
+    "notes": "Use 'सर्वहारा की सामाजिक क्रांति की पूर्ववेला' for 'eve of the social revolution of the proletariat'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "5aa135449103",
+    "source": "Social-chauvinism is socialism in words, chauvinism in deeds, the complete desertion to the side of the bourgeoisie.",
+    "target": "सामाजिक-अंधराष्ट्रवाद का अर्थ है कथनी में समाजवाद और करनी में अंधराष्ट्रवाद, जो कि पूरी तरह बुर्जुआ वर्ग के पाले में चले जाना है।",
+    "bad_literal": "सामाजिक अंधराष्ट्रवाद शब्दों में समाजवाद और काम में अंधराष्ट्रवाद है जो बुर्जुआ पक्ष में जाना है।",
+    "category": "political_tendencies",
+    "notes": "Use 'सामाजिक-अंधराष्ट्रवाद' (social-chauvinism) and 'कथनी में समाजवाद और करनी में अंधराष्ट्रवाद'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "71f666e6e0fd",
+    "source": "Unless the economic roots of this phenomenon are understood and its political and social significance is appreciated, not a step can be taken toward solving the practical problems of the communist movement.",
+    "target": "जब तक इस परिघटना की आर्थिक जड़ों को न समझा जाए और इसके राजनीतिक व सामाजिक महत्व का मूल्यांकन न किया जाए, तब तक कम्युनिस्ट आंदोलन की व्यावहारिक समस्याओं को हल करने की दिशा में एक कदम भी आगे नहीं बढ़ाया जा सकता।",
+    "bad_literal": "जब तक इस घटना की आर्थिक जड़ें न समझी जाएं कम्युनिस्ट आंदोलन की समस्याएं हल नहीं हो सकतीं।",
+    "category": "party_and_revolution",
+    "notes": "Conditional clause flow: 'जब तक... तब तक'.",
+    "updated_at": "2026-10-24T13:21:22Z"
+  },
+  {
+    "id": "61df177932e9",
+    "source": "The primary and fundamental function of banks is to serve as an intermediary in the making of payments.",
+    "target": "बैंकों का प्राथमिक और बुनियादी कार्य भुगतानों के निपटान में मध्यस्थ के रूप में काम करना है।",
+    "bad_literal": "बैंक का पहला काम पेमेंट करने में बीच का काम करना है।",
+    "category": "banks_and_finance",
+    "notes": "Use 'प्राथमिक और बुनियादी कार्य' for 'primary and fundamental function'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "7ddb196da070",
+    "source": "In doing so they transform inactive money capital into active, that is, into capital yielding a profit.",
+    "target": "ऐसा करके वे निष्क्रिय मुद्रा-पूंजी को सक्रिय पूंजी में, यानी मुनाफा देने वाली पूंजी में बदल देते हैं।",
+    "bad_literal": "ऐसा करके वे सोई हुई मुद्रा पूंजी को काम करने वाली पूंजी में बदलते हैं।",
+    "category": "banks_and_finance",
+    "notes": "Use 'निष्क्रिय मुद्रा-पूंजी' (inactive money capital) and 'मुनाफा देने वाली पूंजी'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "5a928555640f",
+    "source": "As banking develops and becomes concentrated in a small number of establishments, the banks grow from modest middlemen into powerful monopolies.",
+    "target": "जैसे-जैसे बैंकिंग का विकास होता है और वह कुछ गिने-चुने संस्थानों में संकेंद्रित होती है, बैंक साधारण बिचौलियों से बढ़कर शक्तिशाली एकाधिकार बन जाते हैं।",
+    "bad_literal": "जैसे बैंक बढ़ते हैं वे छोटे बिचौलियों से शक्तिशाली मोनोपॉली बन जाते हैं।",
+    "category": "banks_and_finance",
+    "notes": "Use 'साधारण बिचौलियों से बढ़कर शक्तिशाली एकाधिकार बन जाना'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "dc5f196f969c",
+    "source": "A steadily increasing proportion of capital in industry ceases to belong to the industrialists who employ it.",
+    "target": "उद्योग में पूंजी का लगातार बढ़ता हुआ हिस्सा उन उद्योगपतियों का नहीं रह जाता जो उसका उपयोग करते हैं।",
+    "bad_literal": "उद्योग की पूंजी का बढ़ता हिस्सा उन उद्योगपतियों का नहीं रहता जो काम करते हैं।",
+    "category": "banks_and_finance",
+    "notes": "Fluid Hindi phrasing avoiding awkward calque.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "b0d51411a809",
+    "source": "They can obtain the use of it only through the bank, which represents the owners of the capital.",
+    "target": "वे इस पूंजी का उपयोग केवल बैंक के माध्यम से ही प्राप्त कर सकते हैं, जो पूंजी के स्वामियों का प्रतिनिधित्व करता है।",
+    "bad_literal": "वे इसे केवल बैंक से ले सकते हैं जो पूंजी मालिकों को दिखाता है।",
+    "category": "banks_and_finance",
+    "notes": "Use 'पूंजी के स्वामियों का प्रतिनिधित्व'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "8039f2151192",
+    "source": "Finance capital is bank capital transformed into industrial capital and dominated by a handful of the biggest financiers.",
+    "target": "वित्तीय पूंजी औद्योगिक पूंजी में रूपांतरित और मुट्ठी भर सबसे बड़े वित्तीय शासकों द्वारा नियंत्रित बैंक पूंजी है।",
+    "bad_literal": "फाइनेंस कैपिटल बैंक कैपिटल है जो इंडस्ट्री में बदलकर बड़े बैंकरों के हाथ में है।",
+    "category": "banks_and_finance",
+    "notes": "Editorial rule: 'वित्तीय पूंजी' (finance capital).",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "057db9fbe451",
+    "source": "Finance capital is such a great, such a decisive force in all economic and in all international relations, that it is capable of subjecting to itself even states enjoying the fullest political independence.",
+    "target": "वित्तीय पूंजी सभी आर्थिक और सभी अंतर्राष्ट्रीय संबंधों में इतनी विशाल, इतनी निर्णायक शक्ति है कि वह पूर्ण राजनीतिक स्वतंत्रता का उपभोग करने वाले राज्यों को भी अपने अधीन करने में सक्षम है।",
+    "bad_literal": "वित्तीय पूंजी इतनी बड़ी ताकत है कि वह स्वतंत्र देशों को भी अपने नीचे ले आती है।",
+    "category": "banks_and_finance",
+    "notes": "Use 'पूर्ण राजनीतिक स्वतंत्रता का उपभोग करने वाले राज्य'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "b7d0d7f72fc9",
+    "source": "Under the old capitalism, when free competition prevailed, the export of goods was the most typical feature. Under modern capitalism, when monopolies prevail, the export of capital has become the typical feature.",
+    "target": "पुराने पूंजीवाद के दौर में, जब मुक्त प्रतिस्पर्धा का बोलबाला था, वस्तुओं का निर्यात सबसे विशिष्ट लक्षण था। आधुनिक पूंजीवाद के दौर में, जब एकाधिकारों का वर्चस्व है, पूंजी का निर्यात विशिष्ट लक्षण बन चुका है।",
+    "bad_literal": "पुराने पूंजीवाद में जब खुली प्रतियोगिता थी माल का एक्सपोर्ट लक्षण था, नए पूंजीवाद में पूंजी का एक्सपोर्ट लक्षण है।",
+    "category": "imperialism_and_capital",
+    "notes": "Classic comparative formulation: 'वस्तुओं का निर्यात' vs 'पूंजी का निर्यात'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "daee0b149b1d",
+    "source": "The necessity for exporting capital arises from the fact that in a few countries capitalism has become \"overripe\" and capital cannot find \"profitable\" investment.",
+    "target": "पूंजी के निर्यात की आवश्यकता इस तथ्य से पैदा होती है कि कुछ देशों में पूंजीवाद 'अति-परिपक्व' हो चुका है और पूंजी को 'लाभकारी' निवेश के अवसर नहीं मिल पा रहे हैं।",
+    "bad_literal": "पूंजी एक्सपोर्ट की जरूरत इसलिए आती है क्योंकि पूंजीवाद बहुत पक चुका है और मुनाफा नहीं मिलता।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'अति-परिपक्व' for 'overripe' and 'लाभकारी निवेश'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "f142e258fc2c",
+    "source": "As long as capitalism remains what it is, surplus capital will be utilised not for the purpose of raising the standard of living of the masses in a given country, but for the purpose of increasing profits by exporting capital abroad to the backward countries.",
+    "target": "जब तक पूंजीवाद का स्वरूप जैसा है वैसा बना रहेगा, अधिशेष पूंजी का उपयोग किसी देश में जनता के जीवन स्तर को ऊंचा उठाने के लिए नहीं, बल्कि पिछड़े देशों में पूंजी का निर्यात करके मुनाफे को बढ़ाने के लिए किया जाएगा।",
+    "bad_literal": "जब तक पूंजीवाद रहेगा, बचा हुआ पैसा जनता का जीवन सुधारने में नहीं बल्कि बाहर एक्सपोर्ट करके मुनाफा बढ़ाने में लगेगा।",
+    "category": "imperialism_and_capital",
+    "notes": "Editorial rule: 'अधिशेष पूंजी' (surplus capital) and 'जीवन स्तर'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "765873406179",
+    "source": "In these backward countries profits are usually high, for capital is scarce, the price of land is relatively low, wages are low, raw materials are cheap.",
+    "target": "इन पिछड़े देशों में मुनाफे की दर आमतौर पर बहुत ऊंची होती है, क्योंकि पूंजी दुर्लभ होती है, जमीन की कीमत अपेक्षाकृत कम होती है, मजदूरी कम होती है और कच्चा माल सस्ता होता है।",
+    "bad_literal": "इन पिछड़े देशों में मुनाफा ऊंचा होता है क्योंकि पूंजी कम है, जमीन सस्ती है, मजदूरी कम है और कच्चा माल सस्ता है।",
+    "category": "imperialism_and_capital",
+    "notes": "Distinguish 'मुनाफे की दर', 'कीमत', and 'मजदूरी'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "c23145e8c3ab",
+    "source": "Monopolist capitalist combines, cartels, syndicates and trusts divide among themselves, first of all, the domestic market, and seize more or less complete possession of the industry of their own country.",
+    "target": "एकाधिकारवादी पूंजीवादी गुट, कार्टेल, सिंडिकेट और ट्रस्ट सबसे पहले घरेलू बाजार को आपस में बांटते हैं, और अपने देश के उद्योग पर कमोबेश पूरा कब्जा कर लेते हैं।",
+    "bad_literal": "मोनोपॉलिस्ट ग्रुप और कार्टेल पहले घरेलू बाजार बांटते हैं और देश के उद्योग पर कब्जा करते हैं।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'घरेलू बाजार' (domestic market) and 'कमोबेश पूरा कब्जा'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "c8fbde1d6295",
+    "source": "But under capitalism the domestic market is inevitably bound up with the foreign market. Capitalism long ago created a world market.",
+    "target": "लेकिन पूंजीवाद के तहत घरेलू बाजार अनिवार्य रूप से विदेशी बाजार से जुड़ा होता है। पूंजीवाद ने बहुत पहले ही एक विश्व बाजार का निर्माण कर दिया था।",
+    "bad_literal": "लेकिन पूंजीवाद में घरेलू बाजार विदेशी बाजार से बंधा है। पूंजीवाद ने पहले ही विश्व बाजार बनाया था।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'घरेलू बाजार' vs 'विदेशी बाजार' and 'विश्व बाजार'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "109048ca17fc",
+    "source": "The epoch of the latest stage of capitalism shows us that certain relations between capitalist associations grow up, based on the economic division of the world; while parallel to this, based on the territorial division of the world, of the struggle for colonies, of the \"struggle for spheres of influence\".",
+    "target": "पूंजीवाद के नवीनतम चरण का युग हमें दिखाता है कि पूंजीवादी संघों के बीच कुछ ऐसे संबंध विकसित होते हैं जो दुनिया के आर्थिक बंटवारे पर आधारित होते हैं; जबकि इसके समानांतर, दुनिया के क्षेत्रीय बंटवारे, उपनिवेशों के लिए संघर्ष और 'प्रभाव-क्षेत्रों के लिए संघर्ष' पर आधारित संबंध भी उभरते हैं।",
+    "bad_literal": "पूंजीवाद का नया युग दिखाता है कि दुनिया के आर्थिक विभाजन पर संबंध बनते हैं और इसके साथ दुनिया के जमीन के बंटवारे और उपनिवेशों की लड़ाई होती है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'दुनिया का आर्थिक बंटवारा' vs 'दुनिया का क्षेत्रीय बंटवारा' and 'प्रभाव-क्षेत्र'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "d17872c5e1bc",
+    "source": "Finance capital and the trusts do not diminish the differences in the rate of growth of the various parts of the world economy; on the contrary, they increase them.",
+    "target": "वित्तीय पूंजी और ट्रस्ट विश्व अर्थव्यवस्था के विभिन्न हिस्सों के विकास की दर में अंतर को घटाते नहीं हैं; इसके विपरीत, वे इस अंतर को और बढ़ा देते हैं।",
+    "bad_literal": "फाइनेंस कैपिटल और ट्रस्ट दुनिया की अर्थव्यवस्था के बढ़ने के अंतर को कम नहीं करते बल्कि बढ़ाते हैं।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'विकास की दर' (rate of growth) and 'इसके विपरीत'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "cca61fd704ae",
+    "source": "Once the relation of forces is changed, what other solution of the contradiction can be found under capitalism than that of force?",
+    "target": "जब शक्तियों का संतुलन बदल जाता है, तो पूंजीवाद के तहत बल प्रयोग के अलावा अन्तर्विरोध का और क्या समाधान तलाशा जा सकता है?",
+    "bad_literal": "जब ताकतों का रिश्ता बदलता है तो पूंजीवाद में ताकत के अलावा झगड़े का क्या हल है?",
+    "category": "party_and_revolution",
+    "notes": "Editorial rule: Use 'अन्तर्विरोध का समाधान' (solution of the contradiction) and 'शक्तियों का संतुलन'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "9a8a92232ac1",
+    "source": "The question is: what means other than war could there be under capitalism to overcome the disparity between the development of productive forces and the accumulation of capital on the one side, and the division of colonies and spheres of influence for finance capital on the other?",
+    "target": "प्रश्न यह है कि एक ओर उत्पादक शक्तियों के विकास तथा पूंजी के संचय और दूसरी ओर वित्तीय पूंजी के लिए उपनिवेशों तथा प्रभाव-क्षेत्रों के बंटवारे के बीच की विषमता को पाटने के लिए पूंजीवाद के तहत युद्ध के अलावा अन्य कौन-सा साधन हो सकता है?",
+    "bad_literal": "सवाल यह है कि उत्पादक शक्तियों और पूंजी संचय तथा उपनिवेशों के बंटवारे की विषमता को खत्म करने के लिए युद्ध के बिना क्या रास्ता है?",
+    "category": "imperialism_and_capital",
+    "notes": "Editorial rule: 'उत्पादक शक्तियों का विकास' and 'पूंजी का संचय'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "5894acd7fec2",
+    "source": "Imperialism is a striving for annexations—this is what the political part of the definition of imperialism amounts to.",
+    "target": "साम्राज्यवाद अन्य भूभागों को हड़पने की ललक है—साम्राज्यवाद की राजनीतिक परिभाषा का मूल निचोड़ यही है।",
+    "bad_literal": "साम्राज्यवाद हड़पने की कोशिश है, यह साम्राज्यवाद की राजनीतिक परिभाषा है।",
+    "category": "imperialism_and_capital",
+    "notes": "Precision: 'अन्य भूभागों को हड़पने की ललक' (striving for annexations).",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "d9e768209315",
+    "source": "The distinctive feature of imperialism is not the domination of industrial capital, but the domination of finance capital, the striving to annex not only agrarian, but every kind of country.",
+    "target": "साम्राज्यवाद की विशिष्ट पहचान औद्योगिक पूंजी का वर्चस्व नहीं, बल्कि वित्तीय पूंजी का वर्चस्व है, न केवल कृषि प्रधान बल्कि हर प्रकार के देश को अपने अधीन करने की ललक है।",
+    "bad_literal": "साम्राज्यवाद का लक्षण औद्योगिक पूंजी का राज नहीं बल्कि वित्तीय पूंजी का राज है जो हर देश को हड़पना चाहता है।",
+    "category": "imperialism_and_capital",
+    "notes": "Contrast: 'औद्योगिक पूंजी का वर्चस्व' vs 'वित्तीय पूंजी का वर्चस्व'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "7082227d8edf",
+    "source": "An essential feature of imperialism is the rivalry between several great powers in the striving for hegemony, i.e., for the conquest of territory, not so much directly for themselves as to weaken the adversary and undermine his hegemony.",
+    "target": "साम्राज्यवाद का एक अनिवार्य लक्षण आधिपत्य स्थापित करने की होड़ में कई महाशक्तियों के बीच की प्रतिद्वंद्विता है, यानी केवल अपने सीधे लाभ के लिए नहीं बल्कि प्रतिद्वंद्वी को कमजोर करने और उसके आधिपत्य को ध्वस्त करने के लिए क्षेत्रों पर कब्जा करना।",
+    "bad_literal": "साम्राज्यवाद का लक्षण बड़ी ताकतों की होड़ है ताकि विरोधी को कमजोर किया जा सके।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'आधिपत्य स्थापित करने की होड़' (striving for hegemony) and 'प्रतिद्वंद्विता'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "3a3ec9c417ac",
+    "source": "Capitalism has been transformed into imperialism, and for this reason the war on the part of both coalitions of belligerents was an imperialist war, a war for the division of the world, for the sharing of the spoils of capitalism.",
+    "target": "पूंजीवाद साम्राज्यवाद में रूपांतरित हो चुका है, और इसी कारण युद्धरत दोनों गठबंधनों की ओर से लड़ा गया युद्ध एक साम्राज्यवादी युद्ध था—दुनिया के बंटवारे और पूंजीवाद की लूट के माले-गनीमत को आपस में बांटने का युद्ध।",
+    "bad_literal": "पूंजीवाद साम्राज्यवाद बन गया है और दोनों तरफ का युद्ध साम्राज्यवादी युद्ध था जो दुनिया बांटने के लिए लड़ा गया।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'साम्राज्यवादी युद्ध' and 'लूट के माले-गनीमत को बांटना'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "29214c60ab13",
+    "source": "The income of the rentiers is five times greater than the income obtained from the foreign trade of the biggest \"trading\" country in the world!",
+    "target": "सूदखोरों की आय दुनिया के सबसे बड़े 'व्यापारी' देश के विदेशी व्यापार से प्राप्त होने वाली आय से पांच गुना अधिक है!",
+    "bad_literal": "सूदखोरों की कमाई दुनिया के सबसे बड़े व्यापारी देश के विदेश व्यापार की कमाई से पांच गुना ज्यादा है!",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'सूदखोरों की आय' (income of the rentiers).",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "21d4ab631df8",
+    "source": "This is the essence of imperialism and imperialist parasitism.",
+    "target": "यही साम्राज्यवाद और साम्राज्यवादी परजीविता का सारतत्व है।",
+    "bad_literal": "यह साम्राज्यवाद और उसके परजीवी होने का सार है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'साम्राज्यवादी परजीविता का सारतत्व'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "26673e70750a",
+    "source": "For that reason the term \"rentier state\", or usurer state, is becoming of common use in the economic literature that deals with imperialism.",
+    "target": "इसी कारण से साम्राज्यवाद का विवेचन करने वाले आर्थिक साहित्य में 'सूदखोर राज्य' शब्द का प्रयोग आम होता जा रहा है।",
+    "bad_literal": "इसलिए सूदखोर राज्य का नाम साम्राज्यवाद के साहित्य में आम हो रहा है।",
+    "category": "imperialism_and_capital",
+    "notes": "Use 'सूदखोर राज्य' (rentier state or usurer state).",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "0dd4adb4455a",
+    "source": "The world has become divided into a handful of usurer states and a vast majority of debtor states.",
+    "target": "दुनिया मुट्ठी भर सूदखोर राज्यों और भारी बहुसंख्यक कर्जदार राज्यों के बीच बंट चुकी है।",
+    "bad_literal": "दुनिया कुछ सूदखोर देशों और ज्यादातर कर्जदार देशों में बंट गई है।",
+    "category": "imperialism_and_capital",
+    "notes": "Stark contrast: 'मुट्ठी भर सूदखोर राज्य' vs 'भारी बहुसंख्यक कर्जदार राज्य'.",
+    "updated_at": "2026-10-24T13:22:12Z"
+  },
+  {
+    "id": "ded5397caea6",
+    "source": "If it were necessary to give the briefest possible definition of imperialism we should have to say that imperialism is the monopoly stage of capitalism.",
+    "target": "यदि साम्राज्यवाद की संक्षिप्ततम संभव परिभाषा देना आवश्यक हो, तो हमें कहना होगा कि साम्राज्यवाद पूंजीवाद का एकाधिकारवादी चरण है।",
+    "bad_literal": "अगर साम्राज्यवाद की सबसे छोटी परिभाषा देनी हो तो हमें कहना चाहिए कि यह पूंजीवाद का एकाधिकार स्तर है।",
+    "category": "imperialism_definition",
+    "notes": "Classic definition: 'पूंजीवाद का एकाधिकारवादी चरण' (monopoly stage of capitalism).",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "99e2659409a2",
+    "source": "Such a definition would include what is most important, for, on the one hand, finance capital is the bank capital of a few very big monopolist banks, merged with the capital of the monopolist combines of industrialists.",
+    "target": "ऐसी परिभाषा में सबसे महत्वपूर्ण बात शामिल होगी, क्योंकि एक ओर, वित्तीय पूंजी कुछ विशाल एकाधिकारवादी बैंकों की बैंक-पूंजी है, जो उद्योगपतियों के एकाधिकारवादी गुटों की पूंजी में विलीन हो चुकी है।",
+    "bad_literal": "ऐसी परिभाषा में सबसे बड़ा सच होगा क्योंकि वित्तीय पूंजी बैंक पूंजी है जो उद्योगपतियों से मिली है।",
+    "category": "imperialism_definition",
+    "notes": "Use 'विलीन हो चुकी है' for 'merged with'.",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "e00fe378d7b2",
+    "source": "And, on the other hand, the division of the world is the transition from a colonial policy which has extended without hindrance to territories unseized by any capitalist power, to a colonial policy of the monopolistic possession of the territory of the globe.",
+    "target": "और दूसरी ओर, दुनिया का बंटवारा उस औपनिवेशिक नीति से एक संक्रमण है जो किसी भी पूंजीवादी शक्ति द्वारा अनधिकृत क्षेत्रों तक बिना किसी बाधा के फैली थी, उस औपनिवेशिक नीति की ओर जिसके तहत पूरी दुनिया के भूभाग पर एकाधिकारवादी कब्जा कायम कर लिया गया है।",
+    "bad_literal": "दूसरी ओर दुनिया का बंटवारा उस औपनिवेशिक नीति से उस नीति में बदलाव है जो पूरी दुनिया पर एकाधिकार रखती है।",
+    "category": "imperialism_definition",
+    "notes": "Contrast: 'अनधिकृत क्षेत्र' vs 'एकाधिकारवादी कब्जा'.",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "a37ae7d9a616",
+    "source": "We must give a definition of imperialism that will include the following five of its basic features.",
+    "target": "हमें साम्राज्यवाद की ऐसी परिभाषा देनी चाहिए जिसमें उसके निम्नलिखित पांच बुनियादी लक्षण शामिल हों।",
+    "bad_literal": "हमें साम्राज्यवाद की ऐसी परिभाषा देनी चाहिए जिसमें पांच लक्षण हों।",
+    "category": "imperialism_definition",
+    "notes": "Formal: 'पांच बुनियादी लक्षण' (five basic features).",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "73f7bc926be9",
+    "source": "First: the concentration of production and capital has developed to such a high stage that it has created monopolies which play a decisive role in economic life.",
+    "target": "पहला: उत्पादन और पूंजी का संकेंद्रण इतने उच्च स्तर तक विकसित हो चुका है कि उसने ऐसे एकाधिकारों का निर्माण किया है जो आर्थिक जीवन में निर्णायक भूमिका निभाते हैं।",
+    "bad_literal": "पहला: उत्पादन और पूंजी का जमाव इतना बढ़ गया है कि उसने एकाधिकार बना दिया है जो आर्थिक जीवन तय करते हैं।",
+    "category": "imperialism_definition",
+    "notes": "First feature of imperialism: 'निर्णायक भूमिका निभाते हैं'.",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "b018a8d4e5d6",
+    "source": "Second: the merging of bank capital with industrial capital, and the creation, on the basis of this \"finance capital\", of a financial oligarchy.",
+    "target": "दूसरा: औद्योगिक पूंजी के साथ बैंक-पूंजी का विलय, और इस 'वित्तीय पूंजी' के आधार पर एक वित्तीय अल्पतंत्र का निर्माण।",
+    "bad_literal": "दूसरा: बैंक पूंजी का उद्योग पूंजी से मिलना और वित्तीय पूंजी पर वित्तीय कुलीनतंत्र का बनना।",
+    "category": "imperialism_definition",
+    "notes": "Second feature of imperialism: 'औद्योगिक पूंजी के साथ बैंक-पूंजी का विलय' and 'वित्तीय अल्पतंत्र'.",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "8439fed1bc5e",
+    "source": "Third: the export of capital as distinguished from the export of commodities acquires exceptional importance.",
+    "target": "तीसरा: वस्तुओं के निर्यात से भिन्न, पूंजी का निर्यात असाधारण महत्व प्राप्त कर लेता है।",
+    "bad_literal": "तीसरा: माल के निर्यात से अलग पूंजी का निर्यात बहुत महत्वपूर्ण हो जाता है।",
+    "category": "imperialism_definition",
+    "notes": "Third feature of imperialism: 'वस्तुओं के निर्यात से भिन्न, पूंजी का निर्यात'.",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "e4118b7c6b8f",
+    "source": "Fourth: the formation of international monopolist capitalist combines which share the world among themselves.",
+    "target": "चौथा: अंतर्राष्ट्रीय एकाधिकारवादी पूंजीवादी गुटों का गठन, जो दुनिया को आपस में बांटते हैं।",
+    "bad_literal": "चौथा: अंतर्राष्ट्रीय एकाधिकारवादी पूंजीवादी समूहों का बनना जो दुनिया को बांटते हैं।",
+    "category": "imperialism_definition",
+    "notes": "Fourth feature of imperialism: 'अंतर्राष्ट्रीय एकाधिकारवादी पूंजीवादी गुट'.",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "6de3042ab81f",
+    "source": "Fifth: the territorial division of the whole world among the biggest capitalist powers is completed.",
+    "target": "पांचवां: सबसे बड़ी पूंजीवादी महाशक्तियों के बीच पूरी दुनिया का क्षेत्रीय बंटवारा पूरा हो चुका है।",
+    "bad_literal": "पांचवां: सबसे बड़ी पूंजीवादी ताकतों के बीच पूरी दुनिया की जमीन का विभाजन पूरा हो गया है।",
+    "category": "imperialism_definition",
+    "notes": "Fifth feature of imperialism: 'पूरी दुनिया का क्षेत्रीय बंटवारा पूरा हो चुका है'.",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "7a5f456bb0fc",
+    "source": "Imperialism is capitalism at that stage of development at which the dominance of monopolies and finance capital is established.",
+    "target": "साम्राज्यवाद पूंजीवाद के विकास का वह चरण है जिसमें एकाधिकारों और वित्तीय पूंजी का वर्चस्व स्थापित हो चुका है।",
+    "bad_literal": "साम्राज्यवाद पूंजीवाद का वह स्तर है जहां एकाधिकार और वित्तीय पूंजी का राज कायम है।",
+    "category": "imperialism_definition",
+    "notes": "Consolidated summary definition.",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "359c4c04e7c6",
+    "source": "The economic essence of imperialism is the substitution of monopoly for free competition.",
+    "target": "साम्राज्यवाद का आर्थिक सारतत्व मुक्त प्रतिस्पर्धा की जगह एकाधिकार की स्थापना है।",
+    "bad_literal": "साम्राज्यवाद का आर्थिक सार खुली प्रतियोगिता की जगह एकाधिकार का आना है।",
+    "category": "imperialism_definition",
+    "notes": "Precision: 'मुक्त प्रतिस्पर्धा की जगह एकाधिकार की स्थापना'.",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "29c02221e9e6",
+    "source": "Free competition is the basic feature of capitalism, and of commodity production generally; monopoly is the exact opposite of free competition.",
+    "target": "मुक्त प्रतिस्पर्धा पूंजीवाद और आम तौर पर जिंस-उत्पादन का बुनियादी लक्षण है; एकाधिकार मुक्त प्रतिस्पर्धा का ठीक विलोम है।",
+    "bad_literal": "खुली प्रतियोगिता पूंजीवाद और माल उत्पादन का लक्षण है; एकाधिकार खुली प्रतियोगिता का उल्टा है।",
+    "category": "imperialism_definition",
+    "notes": "Distinction: 'जिंस-उत्पादन' (commodity production) vs 'मुक्त प्रतिस्पर्धा' (free competition).",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "d61c341daf59",
+    "source": "At the same time the monopolies, which have grown out of free competition, do not eliminate the latter, but exist above it and alongside it, and thereby give rise to a number of very acute, intense antagonisms, frictions and conflicts.",
+    "target": "इसके साथ ही, मुक्त प्रतिस्पर्धा से उपजे एकाधिकार उसे पूरी तरह समाप्त नहीं करते, बल्कि उसके ऊपर और उसके समानांतर मौजूद रहते हैं, और इस तरह अत्यंत तीखे, तीव्र विरोधों, तनावों और संघर्षों को जन्म देते हैं।",
+    "bad_literal": "उसी समय एकाधिकार जो खुली प्रतियोगिता से आए हैं उसे खत्म नहीं करते बल्कि उसके साथ रहते हैं और झगड़े पैदा करते हैं।",
+    "category": "imperialism_definition",
+    "notes": "Dialectical relationship: 'उसके ऊपर और उसके समानांतर मौजूद रहना'.",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "887acb905743",
+    "source": "Monopoly is the transition from capitalism to a higher system.",
+    "target": "एकाधिकार पूंजीवाद से एक उच्चतर सामाजिक व्यवस्था की ओर संक्रमण है।",
+    "bad_literal": "एकाधिकार पूंजीवाद से ऊंचे सिस्टम की तरफ बदलाव है।",
+    "category": "historical_materialism",
+    "notes": "Historical category: 'उच्चतर सामाजिक व्यवस्था की ओर संक्रमण'.",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "95a9158f8b11",
+    "source": "Production becomes social, but appropriation remains private.",
+    "target": "उत्पादन सामाजिक बन जाता है, लेकिन हथियाना (स्वामित्व) निजी बना रहता है।",
+    "bad_literal": "उत्पादन सामाजिक होता है लेकिन कब्जा निजी रहता है।",
+    "category": "historical_materialism",
+    "notes": "Marxian fundamental contradiction: 'उत्पादन सामाजिक बन जाता है, लेकिन स्वामित्व निजी बना रहता है'.",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "7e97064d027c",
+    "source": "The social means of production remain the private property of a few.",
+    "target": "उत्पादन के सामाजिक साधन मुट्ठी भर लोगों की निजी संपत्ति बने रहते हैं।",
+    "bad_literal": "उत्पादन के सामाजिक साधन कुछ लोगों की निजी प्रॉपर्टी रहते हैं।",
+    "category": "historical_materialism",
+    "notes": "Editorial rule: 'उत्पादन के सामाजिक साधन' (social means of production).",
+    "updated_at": "2026-10-24T13:22:40Z"
+  },
+  {
+    "id": "de5fe972264d",
+    "source": "The general framework of formally recognised free competition remains, and the yoke of a few monopolists on the rest of the population becomes a hundred times heavier, more burdensome and intolerable.",
+    "target": "औपचारिक रूप से मान्यता प्राप्त मुक्त प्रतिस्पर्धा का सामान्य ढांचा बना रहता है, और शेष आबादी पर मुट्ठी भर एकाधिकारवादियों का जुआ सौ गुना अधिक भारी, अधिक कष्टदायक और असहनीय हो जाता है।",
+    "bad_literal": "मान्यता प्राप्त खुली प्रतियोगिता का ढांचा रहता है और लोगों पर कुछ एकाधिकारों का बोझ सौ गुना भारी हो जाता है।",
+    "category": "imperialism_definition",
+    "notes": "Use 'मुट्ठी भर एकाधिकारवादियों का जुआ' for 'yoke of a few monopolists'.",
+    "updated_at": "2026-10-24T13:22:40Z"
   }
 ]
