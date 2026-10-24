@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Test artifacts
+data/test_tm.json
+data/test_gl.json
+data/test_exports/
+
+# API keys and environment files
+.env
+*.local

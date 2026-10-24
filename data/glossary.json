@@ -1,0 +1,73 @@
+{
+  "mode of production": {
+    "term": "mode of production",
+    "preferred": "उत्पादन की प्रणाली (mode of production)",
+    "avoid_terms": [
+      "उत्पादन का तरीका",
+      "बनाने की विधि"
+    ],
+    "context_notes": "Standard Marxist concept; preserve transliteration or formal term.",
+    "category": "economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T05:42:11Z"
+  },
+  "surplus labor": {
+    "term": "surplus labor",
+    "preferred": "अधिशेष श्रम",
+    "avoid_terms": [
+      "बचा हुआ काम",
+      "अतिरिक्त मेहनत",
+      "फाालतू काम"
+    ],
+    "context_notes": "Essential political economy term; do not use casual words.",
+    "category": "economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T05:42:11Z"
+  },
+  "commodity": {
+    "term": "commodity",
+    "preferred": "कमोडिटी",
+    "avoid_terms": [
+      "वस्तु",
+      "चीज़"
+    ],
+    "context_notes": "Keep transliterated when referring to goods produced specifically for exchange.",
+    "category": "economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T05:42:11Z"
+  },
+  "feedback": {
+    "term": "feedback",
+    "preferred": "फीडबैक",
+    "avoid_terms": [
+      "प्रतिक्रिया"
+    ],
+    "context_notes": "In cybernetic and systems engineering contexts, transliterate as फीडबैक.",
+    "category": "economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T05:42:11Z"
+  },
+  "algorithm": {
+    "term": "algorithm",
+    "preferred": "एल्गोरिदम",
+    "avoid_terms": [
+      "कलन विधि"
+    ],
+    "context_notes": "Use modern transliterated Devanagari for computing terms.",
+    "category": "economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T05:42:11Z"
+  },
+  "proletariat": {
+    "term": "proletariat",
+    "preferred": "सर्वहारा वर्ग",
+    "avoid_terms": [
+      "गरीब लोग",
+      "मजदूर लोग"
+    ],
+    "context_notes": "Formal sociological/political term.",
+    "category": "economics",
+    "case_sensitive": false,
+    "updated_at": "2026-10-24T05:42:11Z"
+  }
+}

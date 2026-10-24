@@ -1,0 +1,8 @@
+# Core application runs with zero third-party dependencies (Python 3.9+ standard library)
+
+# Optional dependencies for enhanced neural capabilities:
+sentence-transformers>=2.2.2  # For dense transformer vector embeddings
+chromadb>=0.4.22              # For standalone persistent vector database
+pypdf>=3.17.0                 # For PDF text extraction
+pymupdf>=1.23.8               # For high-speed PDF rendering & parsing
+openai>=1.12.0                # For OpenAI API translation integration

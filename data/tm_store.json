@@ -1,0 +1,56 @@
+[
+  {
+    "id": "d4b07c073aef",
+    "source": "The capitalist price mechanism fails to reflect the true social labor costs.",
+    "target": "पूंजीवादी मूल्य प्रणाली वास्तविक सामाजिक श्रम-लागत को दर्शाने में असमर्थ रहती है।",
+    "bad_literal": "पूंजीवादी कीमत तंत्र सच सामाजिक काम लागत दिखाने में असफल है।",
+    "category": "economics",
+    "notes": "Use 'मूल्य प्रणाली' for 'price mechanism' and active voice.",
+    "updated_at": "2026-10-24T05:42:11Z"
+  },
+  {
+    "id": "f6ee0cd1f1fb",
+    "source": "Surplus value is extracted from the working class through uncompensated labor time.",
+    "target": "अवैतनिक श्रम-समय के जरिए मजदूर वर्ग से अधिशेष मूल्य का दोहन किया जाता है।",
+    "bad_literal": "अधिशेष मूल्य बिना मुआवजा काम समय के माध्यम से कामगार वर्ग से निकाला जाता है।",
+    "category": "economics",
+    "notes": "Always use 'अधिशेष मूल्य' and 'अवैतनिक श्रम-समय'.",
+    "updated_at": "2026-10-24T05:42:11Z"
+  },
+  {
+    "id": "4082911dd6e2",
+    "source": "A transition to renewable energy requires a planned reallocation of labor resources.",
+    "target": "नवीकरणीय ऊर्जा की ओर बदलाव के लिए श्रम संसाधनों का सुनियोजित पुनर्वितरण आवश्यक है।",
+    "bad_literal": "अक्षय ऊर्जा में संक्रमण के लिए श्रम संसाधनों के एक नियोजित पुनः आवंटन की आवश्यकता होती है।",
+    "category": "energy",
+    "notes": "Use 'नवीकरणीय ऊर्जा' and 'सुनियोजित पुनर्वितरण'.",
+    "updated_at": "2026-10-24T05:42:11Z"
+  },
+  {
+    "id": "fbd05bb69650",
+    "source": "The development of productive forces inevitably comes into conflict with existing relations of production.",
+    "target": "जैसे-जैसे उत्पादन क्षमताएं विकसित होती हैं, उनका मौजूदा सामाजिक व आर्थिक व्यवस्था से टकराव होना तय है।",
+    "bad_literal": "उत्पादक शक्तियों का विकास अनिवार्य रूप से उत्पादन के मौजूदा संबंधों के साथ संघर्ष में आता है।",
+    "category": "philosophy",
+    "notes": "Avoid calque English phrasing; use fluid natural Hindi cadence.",
+    "updated_at": "2026-10-24T05:42:11Z"
+  },
+  {
+    "id": "cbffad3feb55",
+    "source": "The planning committee decided to use cybernetic feedback algorithms for material balances.",
+    "target": "योजना समिति ने भौतिक संतुलन साधने के लिए साइबरनेटिक फीडबैक एल्गोरिदम का इस्तेमाल करने का फैसला किया।",
+    "bad_literal": "योजना समिति द्वारा सामग्री संतुलन के लिए साइबरनेटिक फीडबैक एल्गोरिदम का उपयोग करने का निर्णय लिया गया था।",
+    "category": "cybernetics",
+    "notes": "Transliterate cybernetic feedback algorithms in Devanagari; avoid passive voice.",
+    "updated_at": "2026-10-24T05:42:11Z"
+  },
+  {
+    "id": "b42c3adb48a9",
+    "source": "The rate of exploitation can be mathematically represented as the ratio of surplus labor to necessary labor.",
+    "target": "शोषण की दर को गणितीय रूप से अधिशेष श्रम और आवश्यक श्रम के अनुपात के रूप में दर्शाया जा सकता है।",
+    "bad_literal": "शोषण की दर अधिशेष श्रम से आवश्यक श्रम का अनुपात है।",
+    "category": "mathematics",
+    "notes": "Preserve mathematical terms accurately.",
+    "updated_at": "2026-10-24T05:42:11Z"
+  }
+]

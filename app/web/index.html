@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translation Style Studio | RAG-Powered Translation Memory</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar / Navigation -->
+    <header class="top-nav">
+      <div class="brand">
+        <span class="logo-icon">🌐</span>
+        <div>
+          <h1>LinguaStyle Studio</h1>
+          <p class="subtitle">Translation Memory via RAG & Style Fine-Tuning</p>
+        </div>
+      </div>
+      <div class="header-badges">
+        <div class="badge"><span class="dot green"></span> TM Pairs: <strong id="stat-tm">0</strong></div>
+        <div class="badge"><span class="dot blue"></span> Glossary: <strong id="stat-glossary">0</strong></div>
+        <button id="btn-seed" class="btn btn-secondary btn-sm" title="Preload sample book translation data">⚡ Load Demo Data</button>
+      </div>
+    </header>
+
+    <!-- Nav Tabs -->
+    <nav class="tab-bar">
+      <button class="tab-btn active" data-tab="studio">🎯 Translation Studio</button>
+      <button class="tab-btn" data-tab="memory">🧠 Translation Memory (TM)</button>
+      <button class="tab-btn" data-tab="glossary">📖 Context Glossary</button>
+      <button class="tab-btn" data-tab="document">📄 Document / PDF Ingestion</button>
+      <button class="tab-btn" data-tab="lora">🚀 LoRA / Fine-Tuning Exporter</button>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="content-container">
+
+      <!-- TAB 1: Translation Studio -->
+      <section id="tab-studio" class="tab-pane active">
+        <div class="studio-grid">
+          <!-- Left: Input & Controls -->
+          <div class="card input-card">
+            <h2>Source Text (English)</h2>
+            <textarea id="studio-input" rows="5" placeholder="Enter an English sentence or paragraph to translate in your style..."></textarea>
+            
+            <div class="controls-row">
+              <div class="control-group">
+                <label>Target Language:</label>
+                <select id="studio-lang">
+                  <option value="Hindi" selected>Hindi (मानक हिन्दी)</option>
+                  <option value="French">French</option>
+                  <option value="German">German</option>
+                  <option value="Spanish">Spanish</option>
+                </select>
+              </div>
+              <div class="control-group">
+                <label>RAG Similarity Threshold:</label>
+                <input type="range" id="studio-threshold" min="0.1" max="0.8" step="0.05" value="0.25">
+                <span id="threshold-val">0.25</span>
+              </div>
+            </div>
+
+            <button id="btn-translate" class="btn btn-primary btn-block">⚡ Translate with Your Style & RAG</button>
+          </div>
+
+          <!-- Right: Output & Review -->
+          <div class="card output-card">
+            <div class="card-header-flex">
+              <h2>Target Translation (Your Style)</h2>
+              <span id="provider-badge" class="pill">Ready</span>
+            </div>
+            <textarea id="studio-output" rows="5" placeholder="Your style-guided translation will appear here..."></textarea>
+
+            <div class="action-bar">
+              <button id="btn-approve-tm" class="btn btn-success">✅ Approve & Add to Translation Memory</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RAG Context Inspector -->
+        <div class="card inspector-card">
+          <h2>🔍 RAG Memory & Context Inspector</h2>
+          <div class="inspector-grid">
+            <div class="inspector-box">
+              <h3>Retrieved Translation Memory (TM) Matches:</h3>
+              <div id="inspector-tm-list" class="mini-list">
+                <p class="placeholder-text">No sentence queried yet.</p>
+              </div>
+            </div>
+            <div class="inspector-box">
+              <h3>Matched Glossary Terms & Directives:</h3>
+              <div id="inspector-glossary-list" class="mini-list">
+                <p class="placeholder-text">No terms matched yet.</p>
+              </div>
+            </div>
+          </div>
+
+          <details class="prompt-details">
+            <summary>👁️ View Assembled LLM Prompt (System & User)</summary>
+            <pre id="prompt-preview-code">Prompt will be displayed here after running a query.</pre>
+          </details>
+        </div>
+      </section>
+
+      <!-- TAB 2: Translation Memory Manager -->
+      <section id="tab-memory" class="tab-pane">
+        <div class="pane-header">
+          <div>
+            <h2>Translation Memory Store</h2>
+            <p class="pane-sub">Aligned bilingual pairs used for RAG few-shot style retrieval.</p>
+          </div>
+          <button id="btn-add-tm-modal" class="btn btn-primary">+ Add New Pair</button>
+        </div>
+
+        <div class="search-bar">
+          <input type="text" id="tm-search" placeholder="Search translation memory by English or target words...">
+        </div>
+
+        <!-- Add Pair Inline Form -->
+        <div id="tm-form-card" class="card form-card hidden">
+          <h3>Add Approved Pair to Translation Memory</h3>
+          <div class="form-grid">
+            <div class="form-group full-width">
+              <label>English Source:</label>
+              <textarea id="tm-input-source" rows="2" placeholder="e.g. The capitalist price mechanism fails to reflect the true social labor costs."></textarea>
+            </div>
+            <div class="form-group full-width">
+              <label>Preferred Translation (Your Style):</label>
+              <textarea id="tm-input-target" rows="2" placeholder="e.g. पूंजीवादी मूल्य प्रणाली वास्तविक सामाजिक श्रम-लागत को दर्शाने में असमर्थ रहती है।"></textarea>
+            </div>
+            <div class="form-group">
+              <label>Literal Translation to AVOID (Optional Contrastive Example):</label>
+              <input type="text" id="tm-input-bad" placeholder="e.g. पूंजीवादी कीमत तंत्र सच सामाजिक काम लागत दिखाने में असफल है।">
+            </div>
+            <div class="form-group">
+              <label>Category / Domain:</label>
+              <input type="text" id="tm-input-category" value="economics" placeholder="e.g. economics, science, philosophy">
+            </div>
+            <div class="form-group full-width">
+              <label>Style Notes / Guidance:</label>
+              <input type="text" id="tm-input-notes" placeholder="e.g. Use 'मूल्य प्रणाली' instead of 'कीमत तंत्र'.">
+            </div>
+          </div>
+          <div class="form-actions">
+            <button id="btn-save-tm" class="btn btn-primary">Save to Memory</button>
+            <button id="btn-cancel-tm" class="btn btn-secondary">Cancel</button>
+          </div>
+        </div>
+
+        <div class="table-container card">
+          <table id="tm-table">
+            <thead>
+              <tr>
+                <th style="width: 35%;">English Source</th>
+                <th style="width: 35%;">Preferred Translation (Your Voice)</th>
+                <th style="width: 15%;">Contrastive Avoid</th>
+                <th style="width: 15%;">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="tm-table-body">
+              <tr><td colspan="4" class="text-center">Loading Translation Memory...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- TAB 3: Context Glossary -->
+      <section id="tab-glossary" class="tab-pane">
+        <div class="pane-header">
+          <div>
+            <h2>Advanced Context Glossary</h2>
+            <p class="pane-sub">Enforce mandatory vocabulary, context guidelines, and forbidden word choices.</p>
+          </div>
+          <button id="btn-add-glossary-modal" class="btn btn-primary">+ Add New Term</button>
+        </div>
+
+        <!-- Add Glossary Inline Form -->
+        <div id="glossary-form-card" class="card form-card hidden">
+          <h3>Add Glossary Entry</h3>
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Source Term (English):</label>
+              <input type="text" id="gl-term" placeholder="e.g. surplus labor">
+            </div>
+            <div class="form-group">
+              <label>Preferred Translation / Transliteration:</label>
+              <input type="text" id="gl-preferred" placeholder="e.g. अधिशेष श्रम">
+            </div>
+            <div class="form-group">
+              <label>Forbidden Terms to Avoid (comma-separated):</label>
+              <input type="text" id="gl-avoid" placeholder="e.g. अतिरिक्त मेहनत, बचा हुआ काम">
+            </div>
+            <div class="form-group">
+              <label>Context & Usage Guidance:</label>
+              <input type="text" id="gl-context" placeholder="e.g. Always use in political economy sections.">
+            </div>
+          </div>
+          <div class="form-actions">
+            <button id="btn-save-glossary" class="btn btn-primary">Save Term</button>
+            <button id="btn-cancel-glossary" class="btn btn-secondary">Cancel</button>
+          </div>
+        </div>
+
+        <div class="glossary-grid" id="glossary-cards-container">
+          <!-- Populated by app.js -->
+        </div>
+      </section>
+
+      <!-- TAB 4: Document Ingestion -->
+      <section id="tab-document" class="tab-pane">
+        <div class="pane-header">
+          <div>
+            <h2>Document & PDF Ingestion Pipeline</h2>
+            <p class="pane-sub">Extract and segment raw book chapters or PDFs into discrete sentences for style alignment.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Paste Raw Text or Book Chapter:</h3>
+          <textarea id="doc-raw-text" rows="8" placeholder="Paste full paragraphs or chapter excerpts here..."></textarea>
+          <button id="btn-segment" class="btn btn-primary" style="margin-top: 10px;">✂️ Segment into Discrete Sentences</button>
+        </div>
+
+        <div id="doc-segmented-results" class="card hidden">
+          <div class="card-header-flex">
+            <h3>Extracted Sentences (<span id="sentence-count">0</span>):</h3>
+            <button id="btn-send-all-studio" class="btn btn-sm btn-secondary">Export to Translation Queue</button>
+          </div>
+          <div id="segmented-list" class="segmented-sentences-list"></div>
+        </div>
+      </section>
+
+      <!-- TAB 5: LoRA / QLoRA Fine-Tuning Exporter -->
+      <section id="tab-lora" class="tab-pane">
+        <div class="pane-header">
+          <div>
+            <h2>LoRA / QLoRA Fine-Tuning Exporter</h2>
+            <p class="pane-sub">Convert your Translation Memory corpus into ready-to-train datasets for open-weight models (Qwen 2.5, Llama 3.3, Gemma 2).</p>
+          </div>
+        </div>
+
+        <div class="lora-grid">
+          <div class="card">
+            <h3>Export Configuration</h3>
+            <div class="form-group" style="margin-bottom: 15px;">
+              <label>Dataset Format:</label>
+              <select id="lora-format">
+                <option value="unsloth" selected>Unsloth / HuggingFace TRL (Messages JSONL)</option>
+                <option value="alpaca">Alpaca Format (Instruction / Input / Output)</option>
+                <option value="sharegpt">ShareGPT / ChatML Format</option>
+              </select>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px;">
+              <label>Validation Split Ratio:</label>
+              <input type="range" id="lora-val-split" min="0.05" max="0.30" step="0.05" value="0.10">
+              <span id="val-split-val">10% Validation</span>
+            </div>
+            <button id="btn-export-lora" class="btn btn-success btn-block">🚀 Generate Fine-Tuning Datasets</button>
+          </div>
+
+          <div class="card">
+            <h3>Training Corpus Readiness</h3>
+            <div class="stats-box">
+              <div class="stat-item">
+                <span class="stat-label">Total Segments in TM:</span>
+                <span class="stat-value" id="lora-stat-segments">0</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">Min. Recommended for LoRA:</span>
+                <span class="stat-value">50 - 500 pairs</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">Optimal for Full Style Shift:</span>
+                <span class="stat-value">1,000+ pairs</span>
+              </div>
+            </div>
+            <div id="lora-export-status" class="export-status-box hidden">
+              <!-- Populated after export -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
