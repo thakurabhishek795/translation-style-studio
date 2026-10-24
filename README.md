@@ -105,6 +105,23 @@ translation-style-studio/
 
 ---
 
+## 📚 Book Translation Pipeline: Baidu Unlimited-OCR + LinguaStyle Studio
+
+For large-scale academic, historical, and political economy book translations, LinguaStyle Studio integrates seamlessly with **[Baidu's Unlimited-OCR](https://github.com/baidu/Unlimited-OCR)**:
+
+1. **Asset Extraction & Document Parsing (Unlimited-OCR)**:
+   - Uses **Reference Sliding Window Attention (R-SWA)** to process dense multi-column PDFs and scanned chapters at constant memory ($O(1)$ text memory growth).
+   - Preserves 2D Markdown tables (`| ... |`), inline/block LaTeX formulas (`$...$`, `$$...$$`), and embedded asset markers (`![FIGURE_ID: ...](...)`).
+2. **Master Translation Prompt Engine**:
+   - Automatically injects matching exemplars from `data/tm_store.json` (100 Lenin/Marxist sentence pairs), negative constraints from `data/glossary.json` (161 terms), and theoretical definitions from `data/mia_encyclopedia.json` (688 concepts).
+   - Enforces the **7 Mandatory Editorial Precision Rules** (Value vs. Price, Surplus Value vs. Profit, Labour vs. Labour-Power, 4 Capital categories, Class terms, Dialectical Contradiction).
+3. **Automated Quality Auditor**:
+   - `scripts/translate_book_pipeline.py` automatically validates translations, failing any attempt that uses forbidden colloquialisms or alters LaTeX equations / Markdown tables.
+
+> 📖 **Read the full specification**: See [docs/prompts/book_translation_master_prompt.md](docs/prompts/book_translation_master_prompt.md) for the complete copy-pasteable system prompt, dynamic RAG template, and execution examples.
+
+---
+
 ## 🧪 Running Tests
 
 To verify that the RAG retrieval, glossary matching, sentence segmenter, and LoRA export pass all checks:
